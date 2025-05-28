@@ -1,145 +1,978 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="" />
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <base href="" />
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
-    <link href="../css/site.css" rel="stylesheet" />
-    <link href="../Website.styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+        <link href="../css/site.css" rel="stylesheet" />
+        <link href="../Website.styles.css" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+        />
 
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <!-- Vendor CSS Files -->
+        <link
+            href="../assets/vendor/fontawesome-free/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/animate.css/animate.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/boxicons/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/remixicon/remixicon.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
 
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <link href="../css/override.css" rel="stylesheet">
-    <!--Blazor:{"sequence":1,"type":"server","prerenderId":"2e7de53a011e480b97cb36c71ffa3126","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BVDzKiHMjajxlps0ePH9k9IKp1Y/s4OYKIotCvmy7W8EC6zgqhy0lNzNjcy1MMoq\u002B2/TKgNov\u002BsnXUQZragz7eNhKYVwhE2d5\u002B6BPYHQyqhfuI6nUwYheK0drrXZgAGLB0z\u002BY7pZa88SzD3GcQsJtb0pQaP48Ygu1H3iwnRi88LHhada1\u002B0Fy\u002BMArqGKyDGbG9E47w60E\u002ByhFdoSEoxwgY\u002B6O28NngnHmFwU3beYOiI1bIVmAMWJeDLpU54yS0mi1EB6xydOE8qRcQiRLuV5hVxLShukxv33rdX/pcLyOBCT4KAN5kQagBPjyFQiQBTtOdpKlxZ9sW6VoOCnKsWeE8bnpJshP1o038f/TUVRBo3kD\u002BHRq6KKSu2W\u002B8y0FqT3FQLD1EbxnA/Zpk5cHFUL17/"}--><title>&#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I TR&#xDA; - B&#x1EC7;nh Vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t</title><meta name="description" content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng." b-s9r4w1tf6w />
-    <meta name="keywords" content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng." b-s9r4w1tf6w /><!--Blazor:{"prerenderId":"2e7de53a011e480b97cb36c71ffa3126"}-->
-</head>
-<body>
-    
-<!--Blazor:{"sequence":0,"type":"server","prerenderId":"ccdf7db6286043d09dd6b02ee732150a","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BXE1Q8wqjA\u002BVR3\u002B19md67gvxwsncvOoswbJmafpQV8Bz3/HytZHA2UYr9twjt\u002BOD0NEGqqE0K/zsk2pTHq8tFs0ddPHzvHwJtF9ae8Hs1ItzhEA9GdxT4nIGSmUnGCE3k8xs3EgZm1bj2biwokXsYTmw75i451pKhshZTcOb7mTnD\u002BrlUHn\u002BDaL1IW9LWNRsPFmvoPq6YIOidnSOVY7PfGNX2jt2GE71RpbOEMaDLetjPDQIGpLOGPuF47\u002BlF8Jlr7LFJ8L\u002BSYyK4NZwRI2\u002BdUZIOcfv/WgXreuEx/OjgWB3sWjlB3RE0Z\u002BOsLA66kAgBA="}-->
+        <!-- Template Main CSS File -->
+        <link href="../assets/css/style.css" rel="stylesheet" />
+        <link href="../css/override.css" rel="stylesheet" />
+        <!--Blazor:{"sequence":1,"type":"server","prerenderId":"2e7de53a011e480b97cb36c71ffa3126","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BVDzKiHMjajxlps0ePH9k9IKp1Y/s4OYKIotCvmy7W8EC6zgqhy0lNzNjcy1MMoq\u002B2/TKgNov\u002BsnXUQZragz7eNhKYVwhE2d5\u002B6BPYHQyqhfuI6nUwYheK0drrXZgAGLB0z\u002BY7pZa88SzD3GcQsJtb0pQaP48Ygu1H3iwnRi88LHhada1\u002B0Fy\u002BMArqGKyDGbG9E47w60E\u002ByhFdoSEoxwgY\u002B6O28NngnHmFwU3beYOiI1bIVmAMWJeDLpU54yS0mi1EB6xydOE8qRcQiRLuV5hVxLShukxv33rdX/pcLyOBCT4KAN5kQagBPjyFQiQBTtOdpKlxZ9sW6VoOCnKsWeE8bnpJshP1o038f/TUVRBo3kD\u002BHRq6KKSu2W\u002B8y0FqT3FQLD1EbxnA/Zpk5cHFUL17/"}-->
+        <title>
+            &#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I TR&#xDA; - B&#x1EC7;nh
+            Vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t
+        </title>
+        <meta
+            name="description"
+            content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng."
+            b-s9r4w1tf6w
+        />
+        <meta
+            name="keywords"
+            content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng."
+            b-s9r4w1tf6w
+        />
+        <!--Blazor:{"prerenderId":"2e7de53a011e480b97cb36c71ffa3126"}-->
+    </head>
+    <body>
+        <!--Blazor:{"sequence":0,"type":"server","prerenderId":"ccdf7db6286043d09dd6b02ee732150a","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BXE1Q8wqjA\u002BVR3\u002B19md67gvxwsncvOoswbJmafpQV8Bz3/HytZHA2UYr9twjt\u002BOD0NEGqqE0K/zsk2pTHq8tFs0ddPHzvHwJtF9ae8Hs1ItzhEA9GdxT4nIGSmUnGCE3k8xs3EgZm1bj2biwokXsYTmw75i451pKhshZTcOb7mTnD\u002BrlUHn\u002BDaL1IW9LWNRsPFmvoPq6YIOidnSOVY7PfGNX2jt2GE71RpbOEMaDLetjPDQIGpLOGPuF47\u002BlF8Jlr7LFJ8L\u002BSYyK4NZwRI2\u002BdUZIOcfv/WgXreuEx/OjgWB3sWjlB3RE0Z\u002BOsLA66kAgBA="}-->
 
+        <div
+            id="topbar"
+            class="d-flex align-items-center fixed-top"
+            b-6bgqpvhkd3
+        >
+            <div class="container d-flex justify-content-between" b-6bgqpvhkd3>
+                <div
+                    class="contact-info d-flex align-items-center"
+                    b-6bgqpvhkd3
+                >
+                    <i class="bi bi-envelope" b-6bgqpvhkd3></i>
+                    <a href="mailto:bv,levanviet@tphcm.gov.vn" b-6bgqpvhkd3
+                        >bv,levanviet@tphcm.gov.vn</a
+                    ><i class="bi bi-phone" b-6bgqpvhkd3></i>0966691010
+                </div>
+            </div>
+        </div>
 
+        <header id="header" class="fixed-top" b-6bgqpvhkd3>
+            <div class="container d-flex align-items-center" b-6bgqpvhkd3>
+                <a href="../index.html" class="logo me-auto" b-6bgqpvhkd3
+                    ><img
+                        src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/28-03-2025-d049b2e7-9320-4891-a5a4-aafedb891951.png"
+                        alt
+                        class="img-fluid"
+                        b-6bgqpvhkd3
+                /></a>
 
-<div id="topbar" class="d-flex align-items-center fixed-top" b-6bgqpvhkd3><div class="container d-flex justify-content-between" b-6bgqpvhkd3><div class="contact-info d-flex align-items-center" b-6bgqpvhkd3><i class="bi bi-envelope" b-6bgqpvhkd3></i> <a href="mailto:bv,levanviet@tphcm.gov.vn" b-6bgqpvhkd3>bv,levanviet@tphcm.gov.vn</a><i class="bi bi-phone" b-6bgqpvhkd3></i>0966691010</div></div></div>
+                <nav
+                    id="navbar"
+                    class="navbar order-last order-lg-0"
+                    b-6bgqpvhkd3
+                >
+                    <ul b-6bgqpvhkd3>
+                        <li b-6bgqpvhkd3>
+                            <a
+                                class="nav-link scrollto trang-chu"
+                                id="trang-chu"
+                                href="../index.html"
+                                b-6bgqpvhkd3
+                                >Trang chủ</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle gioi-thieu"
+                                href="../index.html#"
+                                id="gioi-thieu"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >Gi&#x1EDB;i thi&#x1EC7;u</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/tong-quan-benh-vien.html"
+                                        b-6bgqpvhkd3
+                                        >T&#x1ED4;NG QUAN B&#x1EC6;NH
+                                        VI&#x1EC6;N</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/ban-lanh-dao.html"
+                                        b-6bgqpvhkd3
+                                        >BAN L&#xC3;NH &#x110;&#x1EA0;O</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/so-do-to-chuc.html"
+                                        b-6bgqpvhkd3
+                                        >S&#x1A0; &#x110;&#x1ED2; T&#x1ED4;
+                                        CH&#x1EE8;C</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/cac-phong-ban.html"
+                                        b-6bgqpvhkd3
+                                        >C&#xC1;C PH&#xD2;NG BAN</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li b-6bgqpvhkd3>
+                            <a
+                                class="nav-link scrollto chuyen-khoa"
+                                id="chuyen-khoa"
+                                href="../chuyen-khoa.html"
+                                b-6bgqpvhkd3
+                                >Chuy&#xEA;n khoa</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle dich-vu"
+                                href="../index.html#"
+                                id="dich-vu"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >D&#x1ECB;ch v&#x1EE5;</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vien-phi.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;NG GI&#xC1; VI&#x1EC6;N
+                                        PH&#xCD;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-thuoc.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;NG GI&#xC1; THU&#x1ED0;C</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vat-tu.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;NG GI&#xC1; V&#x1EAC;T
+                                        T&#x1AF;</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle benh-nhan-can-biet"
+                                href="../index.html#"
+                                id="benh-nhan-can-biet"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >B&#x1EC7;nh nh&#xE2;n c&#x1EA7;n bi&#x1EBF;t</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="lich-truc-bac-si.html"
+                                        b-6bgqpvhkd3
+                                        >L&#x1ECA;CH TR&#x1EF0;C B&#xC1;C
+                                        S&#x128;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="bao-hiem-y-te.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;O HI&#x1EC2;M Y T&#x1EBE;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="dieu-tri-ngoai-tru.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;I&#x1EC0;U TR&#x1ECA;
+                                        NGO&#x1EA0;I TR&#xDA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="dieu-tri-noi-tru.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I
+                                        TR&#xDA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="nhap-vien-dieu-tri.html"
+                                        b-6bgqpvhkd3
+                                        >NH&#x1EAC;P VI&#x1EC6;N
+                                        &#x110;I&#x1EC0;U TR&#x1ECA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="xuat-vien.html"
+                                        b-6bgqpvhkd3
+                                        >XU&#x1EA4;T VI&#x1EC6;N</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="quy-dinh-tham-benh.html"
+                                        b-6bgqpvhkd3
+                                        >QUY &#x110;&#x1ECA;NH TH&#x102;M
+                                        B&#x1EC6;NH</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle tin-tuc"
+                                href="../index.html#"
+                                id="tin-tuc"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >Tin t&#x1EE9;c</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/quan-ly-chat-luong.html"
+                                        b-6bgqpvhkd3
+                                        >QU&#x1EA2;N L&#xDD; CH&#x1EA4;T
+                                        L&#x1AF;&#x1EE2;NG</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/cau-lac-bo-nguoi-benh.html"
+                                        b-6bgqpvhkd3
+                                        >C&#xC2;U L&#x1EA0;C B&#x1ED8;
+                                        NG&#x1AF;&#x1EDC;I B&#x1EC6;NH</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/thong-tin-so-y-te.html"
+                                        b-6bgqpvhkd3
+                                        >TH&#xD4;NG TIN S&#x1EDE; Y T&#x1EBE;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/giao-duc-suc-khoe.html"
+                                        b-6bgqpvhkd3
+                                        >GI&#xC1;O D&#x1EE4;C S&#x1EE8;C
+                                        KH&#x1ECE;E</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/hoat-dong-benh-vien.html"
+                                        b-6bgqpvhkd3
+                                        >HO&#x1EA0;T &#x110;&#x1ED8;NG
+                                        B&#x1EC6;NH VI&#x1EC6;N</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/tuyen-dung.html"
+                                        b-6bgqpvhkd3
+                                        >TUY&#x1EC2;N D&#x1EE4;NG</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/dau-thau.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;&#x1EA4;U TH&#x1EA6;U</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle hoat-dong-khoa-hoc"
+                                href="../index.html#"
+                                id="hoat-dong-khoa-hoc"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >Ho&#x1EA1;t &#x111;&#x1ED9;ng khoa
+                                h&#x1ECD;c</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/sinh-hoat-khoa-hoc-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >SINH HO&#x1EA0;T KHOA H&#x1ECC;C
+                                        K&#x1EF8; THU&#x1EAC;T</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/nghien-cuu-khoa-hoc-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >NGHI&#xCA;N C&#x1EE8;U KHOA H&#x1ECC;C
+                                        K&#x1EF8; THU&#x1EAC;T</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/dao-tao.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;&#xC0;O T&#x1EA0;O</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/phac-do-dieu-tri.html"
+                                        b-6bgqpvhkd3
+                                        >PH&#xC1;C &#x110;&#x1ED2;
+                                        &#x110;I&#x1EC0;U TR&#x1ECA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/quy-trinh-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >QUY TR&#xCC;NH K&#x1EF8;
+                                        THU&#x1EAC;T</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/danh-muc-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >DANH M&#x1EE4;C K&#x1EF8;
+                                        THU&#x1EAC;T</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li b-6bgqpvhkd3>
+                            <a
+                                class="nav-link scrollto lien-he"
+                                id="lien-he"
+                                href="../lien-he.html"
+                                b-6bgqpvhkd3
+                                >Li&#xEA;n h&#x1EC7;</a
+                            >
+                        </li>
+                    </ul>
+                    <i
+                        class="bi bi-list mobile-nav-toggle"
+                        onclick="navbarClick(this)"
+                        b-6bgqpvhkd3
+                    ></i>
+                </nav>
+            </div>
+        </header>
 
+        <main id="main" class="main-content" b-s9r4w1tf6w>
+            <section class="main-section" b-s9r4w1tf6w>
+                <div class="section-title" b-s9r4w1tf6w>
+                    <h2 b-s9r4w1tf6w>
+                        &#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I TR&#xDA;
+                    </h2>
+                </div>
+                <div class="section-content" b-s9r4w1tf6w>
+                    <div class="container" b-s9r4w1tf6w>
+                        <div class="contentText" b-s9r4w1tf6w>
+                            <p style="line-height: 1.25">
+                                <strong>Người bệnh điều trị nội trú</strong>
+                            </p>
+                            <p style="line-height: 1.25">
+                                <strong>1. Thủ tục BHYT</strong>
+                            </p>
+                            <p>
+                                Để được hưởng BHYT khi điều trị nội trú tại Bệnh
+                                viện, người bệnh xuất trình đầy đủ và đúng các
+                                loại giấy tờ sau cho thư ký tại khoa điều trị.
+                            </p>
+                            <p>
+                                <strong>Trường hợp 1:&nbsp;</strong>Người bệnh
+                                đến khám thông thường được hưởng BHYT và có chỉ
+                                định nhập việnThẻ BHYT còn hạn sử dụng (Thẻ
+                                giấy/ Ứng dụng VssID/ CCCD có tích hợp thẻ
+                                BHYT).
+                            </p>
+                            <p>
+                                Giấy tờ tùy thân có dán ảnh như: CCCD hoặc
+                                Passport/ Giấy phép lái xe/ Thẻ đảng viên/ Thẻ
+                                hưu trí/ Thẻ đoàn viên công đoàn/ Thẻ học sinh
+                                sinh viên/ Giấy xác nhận công an có dán ảnh và
+                                đóng dấu giáp lai lên hình. Riêng trẻ em dưới 06
+                                tuổi (mã thẻ TE1) thì không cần.
+                            </p>
+                            <p>Toa thuốc có chỉ định nhập viện.</p>
+                            <p>
+                                Giấy chuyển tuyến từ bệnh viện tuyến chuyên môn
+                                kỹ thuật là tuyến 3 trở lên (bệnh viện tuyến
+                                quận/huyện) đối với thẻ BHYT đăng ký tại TPHCM
+                                hoặc tuyến 2 trở lên (bệnh viện tuyến tỉnh) đối
+                                với thẻ BHYT đăng ký tại tỉnh khác, chuyển đúng
+                                tuyến đến Bệnh Đại học Y Dược TPHCM (bản photo
+                                nếu có).
+                            </p>
+                            <p>
+                                <strong>Trường hợp 2:</strong>Người bệnh nhập
+                                cấp cứu trong tình trạng cấp cứu
+                            </p>
+                            <p>
+                                Thẻ BHYT còn hạn sử dụng (Thẻ giấy/ Ứng dụng
+                                VssID/ CCCD có tích hợp thẻ BHYT).
+                            </p>
+                            <p>
+                                Giấy tờ tùy thân có dán ảnh như: CCCD hoặc
+                                Passport/ Giấy phép lái xe/ Thẻ đảng viên/ Thẻ
+                                hưu trí/ Thẻ đoàn viên công đoàn/ Thẻ học sinh
+                                sinh viên/ Giấy xác nhận công an có dán ảnh và
+                                đóng dấu giáp lai lên hình. Riêng trẻ em dưới 06
+                                tuổi (mã thẻ TE1) thì không cần.
+                            </p>
+                            <p>
+                                <strong>Trường hợp 3:</strong>Người bệnh đến
+                                khám thông thường không được hưởng BHYT và có
+                                chỉ định nhập viện
+                            </p>
+                            <p>
+                                Thẻ BHYT còn hạn sử dụng (Thẻ giấy/ Ứng dụng
+                                VssID/ CCCD có tích hợp thẻ BHYT).
+                            </p>
+                            <p>
+                                Giấy tờ tùy thân có dán ảnh như: CCCD hoặc
+                                Passport/ Giấy phép lái xe/ Thẻ đảng viên/ Thẻ
+                                hưu trí/ Thẻ đoàn viên công đoàn/ Thẻ học sinh
+                                sinh viên/ Giấy xác nhận công an có dán ảnh và
+                                đóng dấu giáp lai lên hình. Riêng trẻ em dưới 06
+                                tuổi (mã thẻ TE1) thì không cần.
+                            </p>
+                            <p style="line-height: 1.25">
+                                <strong
+                                    >2. Quy trình thanh toán BHYT nội
+                                    trú</strong
+                                >
+                            </p>
+                            <p>
+                                Xuất trình đúng và đầy đủ thủ tục BHYT như trên
+                                khi làm hồ sơ nhập viện.
+                            </p>
+                            <p>
+                                Được nhân viên tư vấn đế độ thanh toán BHYT tại
+                                Bệnh viện và ký cam kết thanh toán phần chênh
+                                lệch bảo hiểm không thanh toán.
+                            </p>
+                            <p>
+                                Đóng tạm ứng trong quá trình điều trị theo quy
+                                định.
+                            </p>
+                            <p>
+                                Nhận bảng tổng hợp thanh toán viện phí, bản cam
+                                kết thực hiện BHYT nội trú từ thư ký/kế toán của
+                                khoa và thanh toán tại quầy kế toán BHYT kèm
+                                những biên lai đóng tạm ứng khi xuất viện.
+                            </p>
+                            <p>
+                                Nhận thuốc xuất viện, giấy ra viện, toa thuốc
+                                xuất viện, giấy hẹn khám lại nếu có và hướng dẫn
+                                tái khám từ điều dưỡng tại khoa.
+                            </p>
+                            <p>
+                                <strong><em>Lưu ý:</em></strong
+                                ><em
+                                    >Trường hợp ngày nhập viện người bệnh không
+                                    mang đầy đủ và đúng thủ tục BHYT, phải bổ
+                                    sung đầy đủ và đúng thủ tục trước ngày thanh
+                                    toán xuất viện. Mọi thủ tục xuất trình sau
+                                    ngày xuất viện sẽ không được giải quyết tại
+                                    Bệnh viện.</em
+                                >
+                            </p>
+                            <p style="line-height: 1.25">
+                                <strong>3. Quyền lợi KCB BHYT nội trú</strong>
+                            </p>
+                            <p>Mức hưởng BHYT đúng tuyến/trái tuyến</p>
+                            <p>
+                                Được thanh toán 80% hoặc 95% hoặc 100% (tùy theo
+                                đối tượng mã thẻ) những chi phí trong danh mục
+                                bảo hiểm theo quy định.
+                            </p>
+                            <p>
+                                Được khấu trừ trực tiếp các chi phí BHYT thanh
+                                toán
+                            </p>
+                            <div class="author" b-s9r4w1tf6w></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-<header id="header" class="fixed-top" b-6bgqpvhkd3><div class="container d-flex align-items-center" b-6bgqpvhkd3><a href="../index.html" class="logo me-auto" b-6bgqpvhkd3><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/28-03-2025-d049b2e7-9320-4891-a5a4-aafedb891951.png" alt class="img-fluid" b-6bgqpvhkd3 /></a>
+        <section id="footerWrap" class="footerWrap" b-6bgqpvhkd3>
+            <div class="container" b-6bgqpvhkd3>
+                <div class="row" b-6bgqpvhkd3>
+                    <div
+                        class="btBox widget_bt_text_image rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <div class="btImage" b-6bgqpvhkd3>
+                            <img
+                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-9163b1d7-04fc-44cf-b0d7-317117f2f8e3.png"
+                                alt="lvt-logo-white"
+                                b-6bgqpvhkd3
+                            />
+                        </div>
+                        <div class="widget_sp_image-description" b-6bgqpvhkd3>
+                            <p b-6bgqpvhkd3></p>
+                        </div>
+                    </div>
+                    <div
+                        class="btBox widget_nav_menu rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <h4 b-6bgqpvhkd3>
+                            <span b-6bgqpvhkd3
+                                >B&#x1EC7;nh Vi&#x1EC7;n L&#xEA; V&#x103;n
+                                Vi&#x1EC7;t</span
+                            >
+                        </h4>
+                        <div class="menu-benh-vien-container" b-6bgqpvhkd3>
+                            <ul id="menu-benh-vien" class="menu" b-6bgqpvhkd3>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../index.html"
+                                        b-6bgqpvhkd3
+                                        >Trang chủ</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/tong-quan-benh-vien.html"
+                                        b-6bgqpvhkd3
+                                        >Tổng quan bệnh viện</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/ban-lanh-dao.html"
+                                        b-6bgqpvhkd3
+                                        >Ban lãnh đạo</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/so-do-to-chuc.html"
+                                        b-6bgqpvhkd3
+                                        >Sơ Đồ Tổ Chức</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/tuyen-dung.html"
+                                        b-6bgqpvhkd3
+                                        >Tuyển dụng</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../tin-tuc/dau-thau.html"
+                                        b-6bgqpvhkd3
+                                        >Đấu thầu</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/dao-tao.html"
+                                        b-6bgqpvhkd3
+                                        >Đào tạo</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="btBox widget_nav_menu rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <h4 b-6bgqpvhkd3>
+                            <span b-6bgqpvhkd3>Liên Kết Hữu Ích</span>
+                        </h4>
+                        <div
+                            class="menu-lien-ket-huu-ich-container"
+                            b-6bgqpvhkd3
+                        >
+                            <ul
+                                id="menu-lien-ket-huu-ich"
+                                class="menu"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../booking.html"
+                                        b-6bgqpvhkd3
+                                        >Đặt khám</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../chuyen-khoa.html"
+                                        b-6bgqpvhkd3
+                                        >Chuyên khoa</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vien-phi.html"
+                                        b-6bgqpvhkd3
+                                        >Bảng Giá Viện Phí</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-thuoc.html"
+                                        b-6bgqpvhkd3
+                                        >Bảng Giá Thuốc</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vat-tu.html"
+                                        b-6bgqpvhkd3
+                                        >Bảng Giá Vật Tư</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../lien-he.html"
+                                        b-6bgqpvhkd3
+                                        >Liên hệ</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="btBox widget_nav_menu rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <h4 b-6bgqpvhkd3>
+                            <span b-6bgqpvhkd3>Dành Cho Người bệnh</span>
+                        </h4>
+                        <div class="menu-benh-nhan-container" b-6bgqpvhkd3>
+                            <ul id="menu-benh-nhan" class="menu" b-6bgqpvhkd3>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan/lich-truc-bac-si.html"
+                                        b-6bgqpvhkd3
+                                        >Lịch trực Bác sĩ</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="bao-hiem-y-te.html"
+                                        b-6bgqpvhkd3
+                                        >Bảo hiểm Y tế</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="dieu-tri-ngoai-tru.html"
+                                        b-6bgqpvhkd3
+                                        >Điều trị ngoại trú</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="dieu-tri-noi-tru.html"
+                                        b-6bgqpvhkd3
+                                        >Điều trị nội trú</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="nhap-vien-dieu-tri.html"
+                                        b-6bgqpvhkd3
+                                        >Nhập viện điều trị</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="xuat-vien.html"
+                                        b-6bgqpvhkd3
+                                        >Xuất viện</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="quy-dinh-tham-benh.html"
+                                        b-6bgqpvhkd3
+                                        >Quy định thăm bệnh</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" b-6bgqpvhkd3>
+            <div class="container d-md-flex py-2" b-6bgqpvhkd3>
+                <div class="w-100 text-center" b-6bgqpvhkd3>
+                    <div class="copyright" b-6bgqpvhkd3>
+                        &copy; Copyright
+                        <strong b-6bgqpvhkd3
+                            ><span b-6bgqpvhkd3
+                                >Benh Vien Le Van Viet</span
+                            ></strong
+                        >. All Rights Reserved. Designed by
+                        <a
+                            href="https://benhvienlevanviet.vn/"
+                            target="_blank"
+                            b-6bgqpvhkd3
+                            >Benh Vien Le Van Viet</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-        <nav id="navbar" class="navbar order-last order-lg-0" b-6bgqpvhkd3><ul b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="nav-link scrollto trang-chu" id="trang-chu" href="../index.html" b-6bgqpvhkd3>Trang chủ</a></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle gioi-thieu " href="../index.html#" id="gioi-thieu" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>Gi&#x1EDB;i thi&#x1EC7;u</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/tong-quan-benh-vien.html" b-6bgqpvhkd3>T&#x1ED4;NG QUAN B&#x1EC6;NH VI&#x1EC6;N</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/ban-lanh-dao.html" b-6bgqpvhkd3>BAN L&#xC3;NH &#x110;&#x1EA0;O</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/so-do-to-chuc.html" b-6bgqpvhkd3>S&#x1A0; &#x110;&#x1ED2; T&#x1ED4; CH&#x1EE8;C</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/cac-phong-ban.html" b-6bgqpvhkd3>C&#xC1;C PH&#xD2;NG BAN</a></li></ul></li><li b-6bgqpvhkd3><a class="nav-link scrollto chuyen-khoa" id="chuyen-khoa" href="../chuyen-khoa.html" b-6bgqpvhkd3>Chuy&#xEA;n khoa</a></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle dich-vu " href="../index.html#" id="dich-vu" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>D&#x1ECB;ch v&#x1EE5;</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vien-phi.html" b-6bgqpvhkd3>B&#x1EA2;NG GI&#xC1; VI&#x1EC6;N PH&#xCD;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-thuoc.html" b-6bgqpvhkd3>B&#x1EA2;NG GI&#xC1; THU&#x1ED0;C</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vat-tu.html" b-6bgqpvhkd3>B&#x1EA2;NG GI&#xC1; V&#x1EAC;T T&#x1AF;</a></li></ul></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle benh-nhan-can-biet " href="../index.html#" id="benh-nhan-can-biet" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>B&#x1EC7;nh nh&#xE2;n c&#x1EA7;n bi&#x1EBF;t</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="lich-truc-bac-si.html" b-6bgqpvhkd3>L&#x1ECA;CH TR&#x1EF0;C B&#xC1;C S&#x128;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="bao-hiem-y-te.html" b-6bgqpvhkd3>B&#x1EA2;O HI&#x1EC2;M Y T&#x1EBE;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="dieu-tri-ngoai-tru.html" b-6bgqpvhkd3>&#x110;I&#x1EC0;U TR&#x1ECA; NGO&#x1EA0;I TR&#xDA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="dieu-tri-noi-tru.html" b-6bgqpvhkd3>&#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I TR&#xDA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="nhap-vien-dieu-tri.html" b-6bgqpvhkd3>NH&#x1EAC;P VI&#x1EC6;N &#x110;I&#x1EC0;U TR&#x1ECA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="xuat-vien.html" b-6bgqpvhkd3>XU&#x1EA4;T VI&#x1EC6;N</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="quy-dinh-tham-benh.html" b-6bgqpvhkd3>QUY &#x110;&#x1ECA;NH TH&#x102;M B&#x1EC6;NH</a></li></ul></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle tin-tuc " href="../index.html#" id="tin-tuc" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>Tin t&#x1EE9;c</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/quan-ly-chat-luong.html" b-6bgqpvhkd3>QU&#x1EA2;N L&#xDD; CH&#x1EA4;T L&#x1AF;&#x1EE2;NG</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/cau-lac-bo-nguoi-benh.html" b-6bgqpvhkd3>C&#xC2;U L&#x1EA0;C B&#x1ED8; NG&#x1AF;&#x1EDC;I B&#x1EC6;NH</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/thong-tin-so-y-te.html" b-6bgqpvhkd3>TH&#xD4;NG TIN S&#x1EDE; Y T&#x1EBE;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/giao-duc-suc-khoe.html" b-6bgqpvhkd3>GI&#xC1;O D&#x1EE4;C S&#x1EE8;C KH&#x1ECE;E</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/hoat-dong-benh-vien.html" b-6bgqpvhkd3>HO&#x1EA0;T &#x110;&#x1ED8;NG B&#x1EC6;NH VI&#x1EC6;N</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/tuyen-dung.html" b-6bgqpvhkd3>TUY&#x1EC2;N D&#x1EE4;NG</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/dau-thau.html" b-6bgqpvhkd3>&#x110;&#x1EA4;U TH&#x1EA6;U</a></li></ul></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle hoat-dong-khoa-hoc " href="../index.html#" id="hoat-dong-khoa-hoc" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>Ho&#x1EA1;t &#x111;&#x1ED9;ng khoa h&#x1ECD;c</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/sinh-hoat-khoa-hoc-ky-thuat.html" b-6bgqpvhkd3>SINH HO&#x1EA0;T KHOA H&#x1ECC;C K&#x1EF8; THU&#x1EAC;T</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/nghien-cuu-khoa-hoc-ky-thuat.html" b-6bgqpvhkd3>NGHI&#xCA;N C&#x1EE8;U KHOA H&#x1ECC;C K&#x1EF8; THU&#x1EAC;T</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/dao-tao.html" b-6bgqpvhkd3>&#x110;&#xC0;O T&#x1EA0;O</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/phac-do-dieu-tri.html" b-6bgqpvhkd3>PH&#xC1;C &#x110;&#x1ED2; &#x110;I&#x1EC0;U TR&#x1ECA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/quy-trinh-ky-thuat.html" b-6bgqpvhkd3>QUY TR&#xCC;NH K&#x1EF8; THU&#x1EAC;T</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/danh-muc-ky-thuat.html" b-6bgqpvhkd3>DANH M&#x1EE4;C K&#x1EF8; THU&#x1EAC;T</a></li></ul></li><li b-6bgqpvhkd3><a class="nav-link scrollto lien-he" id="lien-he" href="../lien-he.html" b-6bgqpvhkd3>Li&#xEA;n h&#x1EC7;</a></li></ul>
-            <i class="bi bi-list mobile-nav-toggle" onclick="navbarClick(this)" b-6bgqpvhkd3></i></nav></div></header>
+        <div class="chat_icon_bottom" b-6bgqpvhkd3>
+            <div
+                class=""
+                id="ant-blazor-2414276d-91b1-48eb-890d-96ef07c50d41"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="addressbox" b-6bgqpvhkd3>
+                    <a
+                        href="https://www.google.com/maps/place/387 L&#xEA; V&#x103;n Vi&#x1EC7;t, T&#x103;ng Nh&#x1A1;n Ph&#xFA; A, Th&#xE0;nh Ph&#x1ED1; Th&#x1EE7; &#x110;&#x1EE9;c, Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh"
+                        target="_blank"
+                        b-6bgqpvhkd3
+                        ><img
+                            src="../images/address-icon.png"
+                            alt
+                            class="zalome"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
 
+            <div
+                class=""
+                id="ant-blazor-f523ed94-4bb7-4bf2-83e1-844a2163534e"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="facebookbox" b-6bgqpvhkd3>
+                    <a href="tel:0966691010" b-6bgqpvhkd3
+                        ><img
+                            src="../images/icon_phone.png"
+                            alt
+                            class="faceme"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
 
+            <div
+                class=""
+                id="ant-blazor-a803905b-fbb4-4e23-b1c3-0934c3a54a11"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="facebookbox" b-6bgqpvhkd3>
+                    <a
+                        href="https://www.facebook.com/p/B%E1%BB%86NH-VI%E1%BB%86N-QU%E1%BA%ACN-9-100057544624527"
+                        target="_blank"
+                        b-6bgqpvhkd3
+                        ><img
+                            src="../images/icon_facebook.svg"
+                            alt
+                            class="faceme"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
 
+            <div
+                class=""
+                id="ant-blazor-d23b1b43-4b3f-4075-90d2-dbd0d2cd587b"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="zalobox" b-6bgqpvhkd3>
+                    <a
+                        href="https://zalo.me/0966691010"
+                        target="_blank"
+                        b-6bgqpvhkd3
+                        ><img
+                            src="../images/zalo-icon.png"
+                            alt
+                            class="zalome"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
+        </div>
 
-<main id="main" class="main-content" b-s9r4w1tf6w><section class="main-section " b-s9r4w1tf6w><div class="section-title" b-s9r4w1tf6w><h2 b-s9r4w1tf6w>&#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I TR&#xDA;</h2></div>
-        <div class="section-content" b-s9r4w1tf6w><div class="container " b-s9r4w1tf6w><div class="contentText" b-s9r4w1tf6w><p style="line-height: 1.25"><strong>Người bệnh điều trị nội trú</strong></p><p style="line-height: 1.25"><strong>1. Thủ tục BHYT</strong></p><p>Để được hưởng BHYT khi điều trị nội trú tại Bệnh viện, người bệnh xuất trình đầy đủ và đúng các loại giấy tờ sau cho thư ký tại khoa điều trị.</p><p><strong>Trường hợp 1:&nbsp;</strong>Người bệnh đến khám thông thường được hưởng BHYT và có chỉ định nhập việnThẻ BHYT còn hạn sử dụng (Thẻ giấy/ Ứng dụng VssID/ CCCD có tích hợp thẻ BHYT).</p><p>Giấy tờ tùy thân có dán ảnh như: CCCD hoặc Passport/ Giấy phép lái xe/ Thẻ đảng viên/ Thẻ hưu trí/ Thẻ đoàn viên công đoàn/ Thẻ học sinh sinh viên/ Giấy xác nhận công an có dán ảnh và đóng dấu giáp lai lên hình. Riêng trẻ em dưới 06 tuổi (mã thẻ TE1) thì không cần.</p><p>Toa thuốc có chỉ định nhập viện.</p><p>Giấy chuyển tuyến từ bệnh viện tuyến chuyên môn kỹ thuật là tuyến 3 trở lên (bệnh viện tuyến quận/huyện) đối với thẻ BHYT đăng ký tại TPHCM hoặc tuyến 2 trở lên (bệnh viện tuyến tỉnh) đối với thẻ BHYT đăng ký tại tỉnh khác, chuyển đúng tuyến đến Bệnh Đại học Y Dược TPHCM (bản photo nếu có).</p><p><strong>Trường hợp 2:</strong>Người bệnh nhập cấp cứu trong tình trạng cấp cứu</p><p>Thẻ BHYT còn hạn sử dụng (Thẻ giấy/ Ứng dụng VssID/ CCCD có tích hợp thẻ BHYT).</p><p>Giấy tờ tùy thân có dán ảnh như: CCCD hoặc Passport/ Giấy phép lái xe/ Thẻ đảng viên/ Thẻ hưu trí/ Thẻ đoàn viên công đoàn/ Thẻ học sinh sinh viên/ Giấy xác nhận công an có dán ảnh và đóng dấu giáp lai lên hình. Riêng trẻ em dưới 06 tuổi (mã thẻ TE1) thì không cần.</p><p><strong>Trường hợp 3:</strong>Người bệnh đến khám thông thường không được hưởng BHYT và có chỉ định nhập viện</p><p>Thẻ BHYT còn hạn sử dụng (Thẻ giấy/ Ứng dụng VssID/ CCCD có tích hợp thẻ BHYT).</p><p>Giấy tờ tùy thân có dán ảnh như: CCCD hoặc Passport/ Giấy phép lái xe/ Thẻ đảng viên/ Thẻ hưu trí/ Thẻ đoàn viên công đoàn/ Thẻ học sinh sinh viên/ Giấy xác nhận công an có dán ảnh và đóng dấu giáp lai lên hình. Riêng trẻ em dưới 06 tuổi (mã thẻ TE1) thì không cần.</p><p style="line-height: 1.25"><strong>2. Quy trình thanh toán BHYT nội trú</strong></p><p>Xuất trình đúng và đầy đủ thủ tục BHYT như trên khi làm hồ sơ nhập viện.</p><p>Được nhân viên tư vấn đế độ thanh toán BHYT tại Bệnh viện và ký cam kết thanh toán phần chênh lệch bảo hiểm không thanh toán.</p><p>Đóng tạm ứng trong quá trình điều trị theo quy định.</p><p>Nhận bảng tổng hợp thanh toán viện phí, bản cam kết thực hiện BHYT nội trú từ thư ký/kế toán của khoa và thanh toán tại quầy kế toán BHYT kèm những biên lai đóng tạm ứng khi xuất viện.</p><p>Nhận thuốc xuất viện, giấy ra viện, toa thuốc xuất viện, giấy hẹn khám lại nếu có và hướng dẫn tái khám từ điều dưỡng tại khoa.</p><p><strong><em>Lưu ý:</em></strong><em>Trường hợp ngày nhập viện người bệnh không mang đầy đủ và đúng thủ tục BHYT, phải bổ sung đầy đủ và đúng thủ tục trước ngày thanh toán xuất viện. Mọi thủ tục xuất trình sau ngày xuất viện sẽ không được giải quyết tại Bệnh viện.</em></p><p style="line-height: 1.25"><strong>3. Quyền lợi KCB BHYT nội trú</strong></p><p>Mức hưởng BHYT đúng tuyến/trái tuyến</p><p>Được thanh toán 80% hoặc 95% hoặc 100% (tùy theo đối tượng mã thẻ) những chi phí trong danh mục bảo hiểm theo quy định.</p><p>Được khấu trừ trực tiếp các chi phí BHYT thanh toán</p><div class="author" b-s9r4w1tf6w></div></div></div></div></section></main>
+        <a
+            href="../index.html#"
+            class="back-to-top d-flex align-items-center justify-content-center"
+            b-6bgqpvhkd3
+            ><i class="bi bi-arrow-up-short" b-6bgqpvhkd3></i
+        ></a>
 
+        <!--Blazor:{"prerenderId":"ccdf7db6286043d09dd6b02ee732150a"}-->
 
-<section id="footerWrap" class="footerWrap" b-6bgqpvhkd3><div class="container" b-6bgqpvhkd3><div class="row" b-6bgqpvhkd3><div class="btBox widget_bt_text_image rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><div class="btImage" b-6bgqpvhkd3><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-9163b1d7-04fc-44cf-b0d7-317117f2f8e3.png" alt="lvt-logo-white" b-6bgqpvhkd3 /></div><div class="widget_sp_image-description" b-6bgqpvhkd3><p b-6bgqpvhkd3></p></div></div><div class="btBox widget_nav_menu rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><h4 b-6bgqpvhkd3><span b-6bgqpvhkd3>B&#x1EC7;nh Vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t</span></h4><div class="menu-benh-vien-container" b-6bgqpvhkd3><ul id="menu-benh-vien" class="menu" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../index.html" b-6bgqpvhkd3>Trang chủ</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/tong-quan-benh-vien.html" b-6bgqpvhkd3>Tổng quan bệnh viện</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/ban-lanh-dao.html" b-6bgqpvhkd3>Ban lãnh đạo</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/so-do-to-chuc.html" b-6bgqpvhkd3>Sơ Đồ Tổ Chức</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/tuyen-dung.html" b-6bgqpvhkd3>Tuyển dụng</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../tin-tuc/dau-thau.html" b-6bgqpvhkd3>Đấu thầu</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/dao-tao.html" b-6bgqpvhkd3>Đào tạo</a></li></ul></div></div><div class="btBox widget_nav_menu rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><h4 b-6bgqpvhkd3><span b-6bgqpvhkd3>Liên Kết Hữu Ích</span></h4><div class="menu-lien-ket-huu-ich-container" b-6bgqpvhkd3><ul id="menu-lien-ket-huu-ich" class="menu" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../booking.html" b-6bgqpvhkd3>Đặt khám</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../chuyen-khoa.html" b-6bgqpvhkd3>Chuyên khoa</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vien-phi.html" b-6bgqpvhkd3>Bảng Giá Viện Phí</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-thuoc.html" b-6bgqpvhkd3>Bảng Giá Thuốc</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vat-tu.html" b-6bgqpvhkd3>Bảng Giá Vật Tư</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../lien-he.html" b-6bgqpvhkd3>Liên hệ</a></li></ul></div></div><div class="btBox widget_nav_menu rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><h4 b-6bgqpvhkd3><span b-6bgqpvhkd3>Dành Cho Người bệnh</span></h4><div class="menu-benh-nhan-container" b-6bgqpvhkd3><ul id="menu-benh-nhan" class="menu" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan/lich-truc-bac-si.html" b-6bgqpvhkd3>Lịch trực Bác sĩ</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="bao-hiem-y-te.html" b-6bgqpvhkd3>Bảo hiểm Y tế</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="dieu-tri-ngoai-tru.html" b-6bgqpvhkd3>Điều trị ngoại trú</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="dieu-tri-noi-tru.html" b-6bgqpvhkd3>Điều trị nội trú</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="nhap-vien-dieu-tri.html" b-6bgqpvhkd3>Nhập viện điều trị</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="xuat-vien.html" b-6bgqpvhkd3>Xuất viện</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="quy-dinh-tham-benh.html" b-6bgqpvhkd3>Quy định thăm bệnh</a></li></ul></div></div></div></div></section>
-<footer id="footer" b-6bgqpvhkd3><div class="container d-md-flex py-2" b-6bgqpvhkd3><div class="w-100 text-center" b-6bgqpvhkd3><div class="copyright" b-6bgqpvhkd3>
-                &copy; Copyright <strong b-6bgqpvhkd3><span b-6bgqpvhkd3>Medicnet</span></strong>. All Rights Reserved. Designed by <a href="http://medicnet.vn/" target="_blank" b-6bgqpvhkd3>Medicnet</a></div></div></div></footer>
+        <link
+            href="../_content/AntDesign/css/ant-design-blazor.css"
+            rel="stylesheet"
+        />
+        <script src="../_content/AntDesign/js/ant-design-blazor.js"></script>
 
-<div class="chat_icon_bottom" b-6bgqpvhkd3><div class="" Id="ant-blazor-2414276d-91b1-48eb-890d-96ef07c50d41" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="addressbox" b-6bgqpvhkd3><a href="https://www.google.com/maps/place/387 L&#xEA; V&#x103;n Vi&#x1EC7;t, T&#x103;ng Nh&#x1A1;n Ph&#xFA; A, Th&#xE0;nh Ph&#x1ED1; Th&#x1EE7; &#x110;&#x1EE9;c, Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh" target="_blank" b-6bgqpvhkd3><img src="../images/address-icon.png" alt class="zalome" b-6bgqpvhkd3></a></div>
-</div>
+        <div id="blazor-error-ui">
+            <a href="../index.html" class="reload">Reload</a>
+            <a class="dismiss">🗙</a>
+        </div>
+        <!-- Vendor JS Files -->
+        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-
-    
-        
-    
-<div class="" Id="ant-blazor-f523ed94-4bb7-4bf2-83e1-844a2163534e" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="facebookbox" b-6bgqpvhkd3><a href="tel:0966691010" b-6bgqpvhkd3><img src="../images/icon_phone.png" alt class="faceme" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-<div class="" Id="ant-blazor-a803905b-fbb4-4e23-b1c3-0934c3a54a11" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="facebookbox" b-6bgqpvhkd3><a href="https://www.facebook.com/p/B%E1%BB%86NH-VI%E1%BB%86N-QU%E1%BA%ACN-9-100057544624527" target="_blank" b-6bgqpvhkd3><img src="../images/icon_facebook.svg" alt class="faceme" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-<div class="" Id="ant-blazor-d23b1b43-4b3f-4075-90d2-dbd0d2cd587b" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="zalobox" b-6bgqpvhkd3><a href="https://zalo.me/0966691010" target="_blank" b-6bgqpvhkd3><img src="../images/zalo-icon.png" alt class="zalome" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-</div>
-
-<a href="../index.html#" class="back-to-top d-flex align-items-center justify-content-center" b-6bgqpvhkd3><i class="bi bi-arrow-up-short" b-6bgqpvhkd3></i></a>
-        
-
-
-
-
-
-
-<!--Blazor:{"prerenderId":"ccdf7db6286043d09dd6b02ee732150a"}-->
-
-<link href="../_content/AntDesign/css/ant-design-blazor.css" rel="stylesheet" />
-<script src="../_content/AntDesign/js/ant-design-blazor.js"></script>
-
-    <div id="blazor-error-ui">
-        
-        
-        <a href="../index.html" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="https://www.google.com/recaptcha/api.js?hl=vi" async defer></script>
-    <script src="../assets/js/gmsMain.js"></script>
-    <script src="../_framework/blazor.server.js"></script>
-</body>
+        <!-- Template Main JS File -->
+        <script
+            src="https://www.google.com/recaptcha/api.js?hl=vi"
+            async
+            defer
+        ></script>
+        <script src="../assets/js/gmsMain.js"></script>
+        <script src="../_framework/blazor.server.js"></script>
+    </body>
 </html>

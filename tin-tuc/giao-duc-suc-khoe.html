@@ -1,192 +1,1360 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="" />
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <base href="" />
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
-    <link href="../css/site.css" rel="stylesheet" />
-    <link href="../Website.styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+        <link href="../css/site.css" rel="stylesheet" />
+        <link href="../Website.styles.css" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+        />
 
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <!-- Vendor CSS Files -->
+        <link
+            href="../assets/vendor/fontawesome-free/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/animate.css/animate.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/boxicons/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/remixicon/remixicon.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
 
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <link href="../css/override.css" rel="stylesheet">
-    <!--Blazor:{"sequence":1,"type":"server","prerenderId":"3d0b88ee580c4bb69e53943019a76d2f","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BV5aNGVGJl0VRWyrxyVjFShQwNRZJZYDxdJom4jsejAFOslsujahHDFDGUFI7gk5xnNzcmPlXtq2WgmtWsxDPqHjbHMlb3NMordOFAVIKReK8VOZMTVpN75rq9FxXkj5N1wnDtV\u002BXTi9Arc\u002BzrZvHP7g8jBO1SPhWIgXHpM35wVrFmHUXxznXLDkwcvaPEjUKSQwPHCH2g1VORgQIkf8FM5YdjyuakFCB4uVdHox/rzVOfK3B/7IiGSCOdA3CoJj8KZqxzFrIItUWg9LS7dRdYxRqbvnYv7tfi9ruxutMmIh\u002BjMHBBE/7rjT/Qh7GsKfLc3xeK/ciu59mLBrFALIKA1cc76TpAEWanFFFuuzdL0AoIAUZpBeXh5aUYXnrPZF/EfIfpaDfdk0L7mDAwugt\u002Bx"}--><title>GI&#xC1;O D&#x1EE4;C S&#x1EE8;C KH&#x1ECE;E - B&#x1EC7;nh Vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t</title><meta name="description" content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng." b-50gdjnxpjp />
-    <meta name="keywords" content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng." b-50gdjnxpjp /><!--Blazor:{"prerenderId":"3d0b88ee580c4bb69e53943019a76d2f"}-->
-</head>
-<body>
-    
-<!--Blazor:{"sequence":0,"type":"server","prerenderId":"0b41bc3fb1b14c1c9d2d988334f008a0","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BUJbpbp78TFRT9\u002BvrShOVDSGqHvxkDcosqHz76SYtO2AIPfo8FL\u002BI3L9bACh5F6eFxiFxh8fksHCvZ1fNkTDlyB5c7z9M9MfY5tTOONkh6wA2Wpb1fZmLNeWIuLwmNyJY5nc\u002BUxDJVdYmaMzVg8aGnTx8o7Ms\u002BIfrL8E2fjGSeKeIaOZIoPtWzHUjWLfb4YO55xl4FQ\u002BTk544g7VvI0Bu0PLui2Lsfhc5Jcq0IekHk6WPppKICZY5Td\u002Be9xWB7CmTWAm5EmuuBBuh5R0/sx3xHs9NK6lt29pG3wtHQ06\u002BrZIKU6VWUPPJPIW9TrBpCdXfo="}-->
+        <!-- Template Main CSS File -->
+        <link href="../assets/css/style.css" rel="stylesheet" />
+        <link href="../css/override.css" rel="stylesheet" />
+        <!--Blazor:{"sequence":1,"type":"server","prerenderId":"3d0b88ee580c4bb69e53943019a76d2f","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BV5aNGVGJl0VRWyrxyVjFShQwNRZJZYDxdJom4jsejAFOslsujahHDFDGUFI7gk5xnNzcmPlXtq2WgmtWsxDPqHjbHMlb3NMordOFAVIKReK8VOZMTVpN75rq9FxXkj5N1wnDtV\u002BXTi9Arc\u002BzrZvHP7g8jBO1SPhWIgXHpM35wVrFmHUXxznXLDkwcvaPEjUKSQwPHCH2g1VORgQIkf8FM5YdjyuakFCB4uVdHox/rzVOfK3B/7IiGSCOdA3CoJj8KZqxzFrIItUWg9LS7dRdYxRqbvnYv7tfi9ruxutMmIh\u002BjMHBBE/7rjT/Qh7GsKfLc3xeK/ciu59mLBrFALIKA1cc76TpAEWanFFFuuzdL0AoIAUZpBeXh5aUYXnrPZF/EfIfpaDfdk0L7mDAwugt\u002Bx"}-->
+        <title>
+            GI&#xC1;O D&#x1EE4;C S&#x1EE8;C KH&#x1ECE;E - B&#x1EC7;nh
+            Vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t
+        </title>
+        <meta
+            name="description"
+            content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng."
+            b-50gdjnxpjp
+        />
+        <meta
+            name="keywords"
+            content="B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t l&#xE0; &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p y t&#x1EBF; C&#xF4;ng l&#x1EAD;p tr&#x1EF1;c thu&#x1ED9;c S&#x1EDF; Y t&#x1EBF; Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh. B&#x1EC7;nh vi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c x&#x1EBF;p h&#x1EA1;ng  II v&#x1EDB;i quy m&#xF4; 100 gi&#x1B0;&#x1EDD;ng b&#x1EC7;nh v&#x1EDB;i 17 khoa l&#xE2;m s&#xE0;ng v&#xE0; 4 ph&#xF2;ng ch&#x1EE9;c n&#x103;ng."
+            b-50gdjnxpjp
+        />
+        <!--Blazor:{"prerenderId":"3d0b88ee580c4bb69e53943019a76d2f"}-->
+    </head>
+    <body>
+        <!--Blazor:{"sequence":0,"type":"server","prerenderId":"0b41bc3fb1b14c1c9d2d988334f008a0","descriptor":"CfDJ8PLNFFnwsl5NrHZoRsJTS\u002BUJbpbp78TFRT9\u002BvrShOVDSGqHvxkDcosqHz76SYtO2AIPfo8FL\u002BI3L9bACh5F6eFxiFxh8fksHCvZ1fNkTDlyB5c7z9M9MfY5tTOONkh6wA2Wpb1fZmLNeWIuLwmNyJY5nc\u002BUxDJVdYmaMzVg8aGnTx8o7Ms\u002BIfrL8E2fjGSeKeIaOZIoPtWzHUjWLfb4YO55xl4FQ\u002BTk544g7VvI0Bu0PLui2Lsfhc5Jcq0IekHk6WPppKICZY5Td\u002Be9xWB7CmTWAm5EmuuBBuh5R0/sx3xHs9NK6lt29pG3wtHQ06\u002BrZIKU6VWUPPJPIW9TrBpCdXfo="}-->
 
+        <div
+            id="topbar"
+            class="d-flex align-items-center fixed-top"
+            b-6bgqpvhkd3
+        >
+            <div class="container d-flex justify-content-between" b-6bgqpvhkd3>
+                <div
+                    class="contact-info d-flex align-items-center"
+                    b-6bgqpvhkd3
+                >
+                    <i class="bi bi-envelope" b-6bgqpvhkd3></i>
+                    <a href="mailto:bv,levanviet@tphcm.gov.vn" b-6bgqpvhkd3
+                        >bv,levanviet@tphcm.gov.vn</a
+                    ><i class="bi bi-phone" b-6bgqpvhkd3></i>0966691010
+                </div>
+            </div>
+        </div>
 
+        <header id="header" class="fixed-top" b-6bgqpvhkd3>
+            <div class="container d-flex align-items-center" b-6bgqpvhkd3>
+                <a href="../index.html" class="logo me-auto" b-6bgqpvhkd3
+                    ><img
+                        src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/28-03-2025-d049b2e7-9320-4891-a5a4-aafedb891951.png"
+                        alt
+                        class="img-fluid"
+                        b-6bgqpvhkd3
+                /></a>
 
-<div id="topbar" class="d-flex align-items-center fixed-top" b-6bgqpvhkd3><div class="container d-flex justify-content-between" b-6bgqpvhkd3><div class="contact-info d-flex align-items-center" b-6bgqpvhkd3><i class="bi bi-envelope" b-6bgqpvhkd3></i> <a href="mailto:bv,levanviet@tphcm.gov.vn" b-6bgqpvhkd3>bv,levanviet@tphcm.gov.vn</a><i class="bi bi-phone" b-6bgqpvhkd3></i>0966691010</div></div></div>
+                <nav
+                    id="navbar"
+                    class="navbar order-last order-lg-0"
+                    b-6bgqpvhkd3
+                >
+                    <ul b-6bgqpvhkd3>
+                        <li b-6bgqpvhkd3>
+                            <a
+                                class="nav-link scrollto trang-chu"
+                                id="trang-chu"
+                                href="../index.html"
+                                b-6bgqpvhkd3
+                                >Trang chủ</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle gioi-thieu"
+                                href="../index.html#"
+                                id="gioi-thieu"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >Gi&#x1EDB;i thi&#x1EC7;u</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/tong-quan-benh-vien.html"
+                                        b-6bgqpvhkd3
+                                        >T&#x1ED4;NG QUAN B&#x1EC6;NH
+                                        VI&#x1EC6;N</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/ban-lanh-dao.html"
+                                        b-6bgqpvhkd3
+                                        >BAN L&#xC3;NH &#x110;&#x1EA0;O</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/so-do-to-chuc.html"
+                                        b-6bgqpvhkd3
+                                        >S&#x1A0; &#x110;&#x1ED2; T&#x1ED4;
+                                        CH&#x1EE8;C</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/cac-phong-ban.html"
+                                        b-6bgqpvhkd3
+                                        >C&#xC1;C PH&#xD2;NG BAN</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li b-6bgqpvhkd3>
+                            <a
+                                class="nav-link scrollto chuyen-khoa"
+                                id="chuyen-khoa"
+                                href="../chuyen-khoa.html"
+                                b-6bgqpvhkd3
+                                >Chuy&#xEA;n khoa</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle dich-vu"
+                                href="../index.html#"
+                                id="dich-vu"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >D&#x1ECB;ch v&#x1EE5;</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vien-phi.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;NG GI&#xC1; VI&#x1EC6;N
+                                        PH&#xCD;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-thuoc.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;NG GI&#xC1; THU&#x1ED0;C</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vat-tu.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;NG GI&#xC1; V&#x1EAC;T
+                                        T&#x1AF;</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle benh-nhan-can-biet"
+                                href="../index.html#"
+                                id="benh-nhan-can-biet"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >B&#x1EC7;nh nh&#xE2;n c&#x1EA7;n bi&#x1EBF;t</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/lich-truc-bac-si.html"
+                                        b-6bgqpvhkd3
+                                        >L&#x1ECA;CH TR&#x1EF0;C B&#xC1;C
+                                        S&#x128;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/bao-hiem-y-te.html"
+                                        b-6bgqpvhkd3
+                                        >B&#x1EA2;O HI&#x1EC2;M Y T&#x1EBE;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/dieu-tri-ngoai-tru.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;I&#x1EC0;U TR&#x1ECA;
+                                        NGO&#x1EA0;I TR&#xDA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/dieu-tri-noi-tru.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I
+                                        TR&#xDA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/nhap-vien-dieu-tri.html"
+                                        b-6bgqpvhkd3
+                                        >NH&#x1EAC;P VI&#x1EC6;N
+                                        &#x110;I&#x1EC0;U TR&#x1ECA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/xuat-vien.html"
+                                        b-6bgqpvhkd3
+                                        >XU&#x1EA4;T VI&#x1EC6;N</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/quy-dinh-tham-benh.html"
+                                        b-6bgqpvhkd3
+                                        >QUY &#x110;&#x1ECA;NH TH&#x102;M
+                                        B&#x1EC6;NH</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle tin-tuc"
+                                href="../index.html#"
+                                id="tin-tuc"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >Tin t&#x1EE9;c</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="quan-ly-chat-luong.html"
+                                        b-6bgqpvhkd3
+                                        >QU&#x1EA2;N L&#xDD; CH&#x1EA4;T
+                                        L&#x1AF;&#x1EE2;NG</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="cau-lac-bo-nguoi-benh.html"
+                                        b-6bgqpvhkd3
+                                        >C&#xC2;U L&#x1EA0;C B&#x1ED8;
+                                        NG&#x1AF;&#x1EDC;I B&#x1EC6;NH</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="thong-tin-so-y-te.html"
+                                        b-6bgqpvhkd3
+                                        >TH&#xD4;NG TIN S&#x1EDE; Y T&#x1EBE;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="giao-duc-suc-khoe.html"
+                                        b-6bgqpvhkd3
+                                        >GI&#xC1;O D&#x1EE4;C S&#x1EE8;C
+                                        KH&#x1ECE;E</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="hoat-dong-benh-vien.html"
+                                        b-6bgqpvhkd3
+                                        >HO&#x1EA0;T &#x110;&#x1ED8;NG
+                                        B&#x1EC6;NH VI&#x1EC6;N</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="tuyen-dung.html"
+                                        b-6bgqpvhkd3
+                                        >TUY&#x1EC2;N D&#x1EE4;NG</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="dau-thau.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;&#x1EA4;U TH&#x1EA6;U</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" b-6bgqpvhkd3>
+                            <a
+                                class="nav-link dropdown-toggle hoat-dong-khoa-hoc"
+                                href="../index.html#"
+                                id="hoat-dong-khoa-hoc"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                b-6bgqpvhkd3
+                                >Ho&#x1EA1;t &#x111;&#x1ED9;ng khoa
+                                h&#x1ECD;c</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/sinh-hoat-khoa-hoc-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >SINH HO&#x1EA0;T KHOA H&#x1ECC;C
+                                        K&#x1EF8; THU&#x1EAC;T</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/nghien-cuu-khoa-hoc-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >NGHI&#xCA;N C&#x1EE8;U KHOA H&#x1ECC;C
+                                        K&#x1EF8; THU&#x1EAC;T</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/dao-tao.html"
+                                        b-6bgqpvhkd3
+                                        >&#x110;&#xC0;O T&#x1EA0;O</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/phac-do-dieu-tri.html"
+                                        b-6bgqpvhkd3
+                                        >PH&#xC1;C &#x110;&#x1ED2;
+                                        &#x110;I&#x1EC0;U TR&#x1ECA;</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/quy-trinh-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >QUY TR&#xCC;NH K&#x1EF8;
+                                        THU&#x1EAC;T</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/danh-muc-ky-thuat.html"
+                                        b-6bgqpvhkd3
+                                        >DANH M&#x1EE4;C K&#x1EF8;
+                                        THU&#x1EAC;T</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li b-6bgqpvhkd3>
+                            <a
+                                class="nav-link scrollto lien-he"
+                                id="lien-he"
+                                href="../lien-he.html"
+                                b-6bgqpvhkd3
+                                >Li&#xEA;n h&#x1EC7;</a
+                            >
+                        </li>
+                    </ul>
+                    <i
+                        class="bi bi-list mobile-nav-toggle"
+                        onclick="navbarClick(this)"
+                        b-6bgqpvhkd3
+                    ></i>
+                </nav>
+            </div>
+        </header>
 
+        <main id="main" class="main-content" b-50gdjnxpjp>
+            <section class="main-section" b-50gdjnxpjp>
+                <div class="section-title" b-50gdjnxpjp>
+                    <h2 b-50gdjnxpjp>
+                        GI&#xC1;O D&#x1EE4;C S&#x1EE8;C KH&#x1ECE;E
+                    </h2>
+                </div>
+                <div class="section-content news" b-50gdjnxpjp>
+                    <div class="container" b-50gdjnxpjp>
+                        <div class="row" b-50gdjnxpjp>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67e2bacbb61fd19e145c24c3/benh-vien-le-van-viet-cap-cuu-lay-khoi-thai-tron-ven,-giu-duoc-buong-trung-cho-benh-nhan-thai-ngoai-tu-cung-o-buong-trung.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-0f4cfbff-48c8-411b-a80c-11c234eeb7af.jpeg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67e2bacbb61fd19e145c24c3/benh-vien-le-van-viet-cap-cuu-lay-khoi-thai-tron-ven,-giu-duoc-buong-trung-cho-benh-nhan-thai-ngoai-tu-cung-o-buong-trung.html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t c&#x1EA5;p
+                                            c&#x1EE9;u l&#x1EA5;y kh&#x1ED1;i
+                                            thai tr&#x1ECD;n v&#x1EB9;n,
+                                            gi&#x1EEF; &#x111;&#x1B0;&#x1EE3;c
+                                            bu&#x1ED3;ng tr&#x1EE9;ng cho
+                                            b&#x1EC7;nh nh&#xE2;n thai
+                                            ngo&#xE0;i t&#x1EED; cung &#x1EDF;
+                                            bu&#x1ED3;ng tr&#x1EE9;ng
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                24/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67e2bce9a148a85979873dee/nguoi-phu-nu-nhap-vien-cap-cuu-do-bang-huyet-uong-thuoc-pha-thai-gia-re-mua-tren-mang.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media01/1227423520368099328/1230041768871854080/25-03-2025-8d34b78a-1a6b-4fa0-a6b3-c8849800272c.jpeg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67e2bce9a148a85979873dee/nguoi-phu-nu-nhap-vien-cap-cuu-do-bang-huyet-uong-thuoc-pha-thai-gia-re-mua-tren-mang.html"
+                                            b-50gdjnxpjp
+                                            >Ng&#x1B0;&#x1EDD;i ph&#x1EE5;
+                                            n&#x1EEF; nh&#x1EAD;p vi&#x1EC7;n
+                                            c&#x1EA5;p c&#x1EE9;u do b&#x103;ng
+                                            huy&#x1EBF;t u&#x1ED1;ng
+                                            thu&#x1ED1;c ph&#xE1; thai gi&#xE1;
+                                            r&#x1EBB; mua tr&#xEA;n m&#x1EA1;ng
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                22/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67d92af4a80e0f0e9cc25229/dau-hieu-canh-bao-nuoc-tieu-duc-la-benh-tuyen-tien-liet.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-f36fbf2e-3f18-4db9-9c3a-8d2badbbf775.webp"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67d92af4a80e0f0e9cc25229/dau-hieu-canh-bao-nuoc-tieu-duc-la-benh-tuyen-tien-liet.html"
+                                            b-50gdjnxpjp
+                                            >D&#x1EA5;u hi&#x1EC7;u c&#x1EA3;nh
+                                            b&#xE1;o n&#x1B0;&#x1EDB;c
+                                            ti&#x1EC3;u &#x111;&#x1EE5;c l&#xE0;
+                                            b&#x1EC7;nh tuy&#x1EBF;n ti&#x1EC1;n
+                                            li&#x1EC7;t
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                17/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67d92beb196740ebce84f152/vi-sao-de-xuat-tang-thoi-gian-nghi-khi-sinh-con-thu-hai-7-thang%3F.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-1225e854-b525-4fa1-a543-5e879acb22cc.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67d92beb196740ebce84f152/vi-sao-de-xuat-tang-thoi-gian-nghi-khi-sinh-con-thu-hai-7-thang%3F.html"
+                                            b-50gdjnxpjp
+                                            >V&#xEC; sao &#x111;&#x1EC1;
+                                            xu&#x1EA5;t t&#x103;ng th&#x1EDD;i
+                                            gian ngh&#x1EC9; khi sinh con
+                                            th&#x1EE9; hai 7 th&#xE1;ng?
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                12/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67d92b39a80e0f0e9cc2522a/tac-hai-khong-ngo-cua-nam-ngay-sau-khi-an.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-7397b949-fbcb-405f-af97-1afda5235ea5.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67d92b39a80e0f0e9cc2522a/tac-hai-khong-ngo-cua-nam-ngay-sau-khi-an.html"
+                                            b-50gdjnxpjp
+                                            >T&#xE1;c h&#x1EA1;i kh&#xF4;ng
+                                            ng&#x1EDD; c&#x1EE7;a n&#x1EB1;m
+                                            ngay sau khi &#x103;n
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                11/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67d9888bf63f482d8e7d3cb8/benh-vien-le-van-viet-phau-thuat-ket-hop-xuong-thanh-cong-cho-benh-nhan-gay-lun-3-mat-ca-co-chan-khi-nhay-day.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-e9ff77f9-5ad7-47c4-83dd-23058108cdb7.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67d9888bf63f482d8e7d3cb8/benh-vien-le-van-viet-phau-thuat-ket-hop-xuong-thanh-cong-cho-benh-nhan-gay-lun-3-mat-ca-co-chan-khi-nhay-day.html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t ph&#x1EAB;u
+                                            thu&#x1EAD;t k&#x1EBF;t h&#x1EE3;p
+                                            x&#x1B0;&#x1A1;ng th&#xE0;nh
+                                            c&#xF4;ng cho b&#x1EC7;nh nh&#xE2;n
+                                            g&#xE3;y l&#xFA;n 3 m&#x1EAF;t
+                                            c&#xE1; c&#x1ED5; ch&#xE2;n khi
+                                            nh&#x1EA3;y d&#xE2;y
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                07/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67e2bd8da148a85979873def/benh-vien-le-van-viet-cap-cuu-san-phu-thai-chuyen-da-som-de-roi-tai-nha.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-353ce938-6df7-419c-811e-584bb09c16b2.jpeg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67e2bd8da148a85979873def/benh-vien-le-van-viet-cap-cuu-san-phu-thai-chuyen-da-som-de-roi-tai-nha.html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t c&#x1EA5;p
+                                            c&#x1EE9;u s&#x1EA3;n ph&#x1EE5;
+                                            thai chuy&#x1EC3;n d&#x1EA1;
+                                            s&#x1EDB;m &#x111;&#x1EBB; r&#x1A1;i
+                                            t&#x1EA1;i nh&#xE0;
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                04/03/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67ef83afdd0f5130a481b4ed/noi-soi-tan-soi-nieu-quan-hai-ben-bang-laser-ket-hop-dat-ong-sonde-jj-nieu-quan-cho-benh-nhan-28-tuoi.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media01/1227423520368099328/1230041768871854080/04-04-2025-6a80ffab-e37f-4104-b029-70c969273849.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67ef83afdd0f5130a481b4ed/noi-soi-tan-soi-nieu-quan-hai-ben-bang-laser-ket-hop-dat-ong-sonde-jj-nieu-quan-cho-benh-nhan-28-tuoi.html"
+                                            b-50gdjnxpjp
+                                            >N&#x1ED9;i soi t&#xE1;n s&#x1ECF;i
+                                            ni&#x1EC7;u qu&#x1EA3;n hai b&#xEA;n
+                                            b&#x1EB1;ng laser k&#x1EBF;t
+                                            h&#x1EE3;p &#x111;&#x1EB7;t
+                                            &#x1ED1;ng Sonde JJ ni&#x1EC7;u
+                                            qu&#x1EA3;n cho b&#x1EC7;nh
+                                            nh&#xE2;n 28 tu&#x1ED5;i
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                25/02/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67ef5db0a22acd5afeacf54a/benh-vien-le-van-viet-noi-soi-gap-vien-thuoc-con-nguyen-vo-mac-ket-trong-thuc-quan-benh-nhan.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media01/1227423520368099328/1230041768871854080/04-04-2025-1932f49b-8d17-4266-baa8-71a3f0fba9e6.webp"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67ef5db0a22acd5afeacf54a/benh-vien-le-van-viet-noi-soi-gap-vien-thuoc-con-nguyen-vo-mac-ket-trong-thuc-quan-benh-nhan.html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t n&#x1ED9;i soi
+                                            g&#x1EAF;p vi&#xEA;n thu&#x1ED1;c
+                                            c&#xF2;n nguy&#xEA;n v&#x1ECF;
+                                            m&#x1EAF;c k&#x1EB9;t trong
+                                            th&#x1EF1;c qu&#x1EA3;n b&#x1EC7;nh
+                                            nh&#xE2;n
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                20/01/2025</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67ef8a309b43b2030dea046c/benh-vien-le-van-viet-huong-ung-ngay-quoc-te-phong-chong-dich-benh-(27/12/2024)%250A.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/04-04-2025-2a014877-26ab-4964-a485-baff828c982d.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67ef8a309b43b2030dea046c/benh-vien-le-van-viet-huong-ung-ngay-quoc-te-phong-chong-dich-benh-(27/12/2024)%250A.html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t
+                                            h&#x1B0;&#x1EDF;ng &#x1EE9;ng
+                                            Ng&#xE0;y Qu&#x1ED1;c t&#x1EBF;
+                                            ph&#xF2;ng ch&#x1ED1;ng d&#x1ECB;ch
+                                            b&#x1EC7;nh (27/12/2024)&#xA;
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                25/12/2024</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67ef5564fd02426576b051cd/benh-vien-le-van-viet-phau-thuat-thanh-cong-dong-dinh-noi-tuy-benh-nhan-gay-2-xuong-cang-chan-phuc-tap.html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/04-04-2025-d39919b5-00d9-43c8-991d-8e3c0f53196d.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67ef5564fd02426576b051cd/benh-vien-le-van-viet-phau-thuat-thanh-cong-dong-dinh-noi-tuy-benh-nhan-gay-2-xuong-cang-chan-phuc-tap.html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t ph&#x1EAB;u
+                                            thu&#x1EAD;t th&#xE0;nh c&#xF4;ng
+                                            &#x111;&#xF3;ng &#x111;inh
+                                            n&#x1ED9;i t&#x1EE7;y b&#x1EC7;nh
+                                            nh&#xE2;n g&#xE3;y 2
+                                            x&#x1B0;&#x1A1;ng c&#x1EB3;ng
+                                            ch&#xE2;n ph&#x1EE9;c t&#x1EA1;p
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                08/12/2024</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-4 d-flex align-items-stretch mb-2"
+                                b-50gdjnxpjp
+                            >
+                                <div class="icon-box" b-50gdjnxpjp>
+                                    <div class="iconImg" b-50gdjnxpjp>
+                                        <a
+                                            href="67ef592fa22acd5afeacf549/benh-vien-le-van-viet-noi-soi-gap-xuong-ga-mac-sau-trong-thuc-quan..html"
+                                            b-50gdjnxpjp
+                                            ><img
+                                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/04-04-2025-3c9c6ff5-ab90-4275-ad30-4997447cc24c.jpg"
+                                                b-50gdjnxpjp
+                                        /></a>
+                                    </div>
+                                    <h4 b-50gdjnxpjp>
+                                        <a
+                                            href="67ef592fa22acd5afeacf549/benh-vien-le-van-viet-noi-soi-gap-xuong-ga-mac-sau-trong-thuc-quan..html"
+                                            b-50gdjnxpjp
+                                            >B&#x1EC7;nh vi&#x1EC7;n L&#xEA;
+                                            V&#x103;n Vi&#x1EC7;t n&#x1ED9;i soi
+                                            g&#x1EAF;p x&#x1B0;&#x1A1;ng g&#xE0;
+                                            m&#x1EAF;c s&#xE2;u trong
+                                            th&#x1EF1;c qu&#x1EA3;n.
+                                            <span class="time" b-50gdjnxpjp
+                                                ><i
+                                                    class="fa-solid fa-clock"
+                                                    b-50gdjnxpjp
+                                                ></i>
+                                                28/11/2024</span
+                                            ></a
+                                        >
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="div_paging" b-50gdjnxpjp>
+                                <ul
+                                    class="ant-pagination"
+                                    unselectable="unselectable"
+                                >
+                                    <li
+                                        title="Previous Page"
+                                        class="ant-pagination-prev ant-pagination-disabled"
+                                        aria-disabled="prevDisabled"
+                                    >
+                                        <button
+                                            class="ant-pagination-item-link"
+                                            type="button"
+                                            tabindex="-1"
+                                            disabled
+                                        >
+                                            <span
+                                                role="img"
+                                                class="anticon anticon-left"
+                                                id="ant-blazor-2ed57d7d-3e4d-4404-a4b7-4acbca6c917c"
+                                            >
+                                                <svg
+                                                    focusable="false"
+                                                    width="1em"
+                                                    height="1em"
+                                                    fill="currentColor"
+                                                    style="pointer-events: none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="icon"
+                                                    viewBox="0 0 1024 1024"
+                                                >
+                                                    <path
+                                                        d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                                                    /></svg
+                                            ></span>
+                                        </button>
+                                    </li>
+                                    <li
+                                        title="1"
+                                        class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                                        tabindex="0"
+                                    >
+                                        <a rel="nofollow">1</a>
+                                    </li>
+                                    <li
+                                        title="2"
+                                        class="ant-pagination-item ant-pagination-item-2"
+                                        tabindex="0"
+                                    >
+                                        <a rel="nofollow">2</a>
+                                    </li>
+                                    <li
+                                        title="Next Page"
+                                        class="ant-pagination-next"
+                                        aria-disabled="nextDisabled"
+                                    >
+                                        <button
+                                            class="ant-pagination-item-link"
+                                            type="button"
+                                            tabindex="-1"
+                                        >
+                                            <span
+                                                role="img"
+                                                class="anticon anticon-right"
+                                                id="ant-blazor-63e16dae-b10f-4325-80a7-b0a8be52961a"
+                                            >
+                                                <svg
+                                                    focusable="false"
+                                                    width="1em"
+                                                    height="1em"
+                                                    fill="currentColor"
+                                                    style="pointer-events: none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="icon"
+                                                    viewBox="0 0 1024 1024"
+                                                >
+                                                    <path
+                                                        d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+                                                    /></svg
+                                            ></span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-<header id="header" class="fixed-top" b-6bgqpvhkd3><div class="container d-flex align-items-center" b-6bgqpvhkd3><a href="../index.html" class="logo me-auto" b-6bgqpvhkd3><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/28-03-2025-d049b2e7-9320-4891-a5a4-aafedb891951.png" alt class="img-fluid" b-6bgqpvhkd3 /></a>
+        <section id="footerWrap" class="footerWrap" b-6bgqpvhkd3>
+            <div class="container" b-6bgqpvhkd3>
+                <div class="row" b-6bgqpvhkd3>
+                    <div
+                        class="btBox widget_bt_text_image rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <div class="btImage" b-6bgqpvhkd3>
+                            <img
+                                src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-9163b1d7-04fc-44cf-b0d7-317117f2f8e3.png"
+                                alt="lvt-logo-white"
+                                b-6bgqpvhkd3
+                            />
+                        </div>
+                        <div class="widget_sp_image-description" b-6bgqpvhkd3>
+                            <p b-6bgqpvhkd3></p>
+                        </div>
+                    </div>
+                    <div
+                        class="btBox widget_nav_menu rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <h4 b-6bgqpvhkd3>
+                            <span b-6bgqpvhkd3
+                                >B&#x1EC7;nh Vi&#x1EC7;n L&#xEA; V&#x103;n
+                                Vi&#x1EC7;t</span
+                            >
+                        </h4>
+                        <div class="menu-benh-vien-container" b-6bgqpvhkd3>
+                            <ul id="menu-benh-vien" class="menu" b-6bgqpvhkd3>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../index.html"
+                                        b-6bgqpvhkd3
+                                        >Trang chủ</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/tong-quan-benh-vien.html"
+                                        b-6bgqpvhkd3
+                                        >Tổng quan bệnh viện</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/ban-lanh-dao.html"
+                                        b-6bgqpvhkd3
+                                        >Ban lãnh đạo</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../gioi-thieu/so-do-to-chuc.html"
+                                        b-6bgqpvhkd3
+                                        >Sơ Đồ Tổ Chức</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="tuyen-dung.html"
+                                        b-6bgqpvhkd3
+                                        >Tuyển dụng</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="dau-thau.html"
+                                        b-6bgqpvhkd3
+                                        >Đấu thầu</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../hoat-dong-khoa-hoc/dao-tao.html"
+                                        b-6bgqpvhkd3
+                                        >Đào tạo</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="btBox widget_nav_menu rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <h4 b-6bgqpvhkd3>
+                            <span b-6bgqpvhkd3>Liên Kết Hữu Ích</span>
+                        </h4>
+                        <div
+                            class="menu-lien-ket-huu-ich-container"
+                            b-6bgqpvhkd3
+                        >
+                            <ul
+                                id="menu-lien-ket-huu-ich"
+                                class="menu"
+                                b-6bgqpvhkd3
+                            >
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../booking.html"
+                                        b-6bgqpvhkd3
+                                        >Đặt khám</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../chuyen-khoa.html"
+                                        b-6bgqpvhkd3
+                                        >Chuyên khoa</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vien-phi.html"
+                                        b-6bgqpvhkd3
+                                        >Bảng Giá Viện Phí</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-thuoc.html"
+                                        b-6bgqpvhkd3
+                                        >Bảng Giá Thuốc</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu/bang-gia-vat-tu.html"
+                                        b-6bgqpvhkd3
+                                        >Bảng Giá Vật Tư</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../lien-he.html"
+                                        b-6bgqpvhkd3
+                                        >Liên hệ</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="btBox widget_nav_menu rowItem col-md-3 col-sm-12"
+                        b-6bgqpvhkd3
+                    >
+                        <h4 b-6bgqpvhkd3>
+                            <span b-6bgqpvhkd3>Dành Cho Người bệnh</span>
+                        </h4>
+                        <div class="menu-benh-nhan-container" b-6bgqpvhkd3>
+                            <ul id="menu-benh-nhan" class="menu" b-6bgqpvhkd3>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan/lich-truc-bac-si.html"
+                                        b-6bgqpvhkd3
+                                        >Lịch trực Bác sĩ</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/bao-hiem-y-te.html"
+                                        b-6bgqpvhkd3
+                                        >Bảo hiểm Y tế</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/dieu-tri-ngoai-tru.html"
+                                        b-6bgqpvhkd3
+                                        >Điều trị ngoại trú</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/dieu-tri-noi-tru.html"
+                                        b-6bgqpvhkd3
+                                        >Điều trị nội trú</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/nhap-vien-dieu-tri.html"
+                                        b-6bgqpvhkd3
+                                        >Nhập viện điều trị</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/xuat-vien.html"
+                                        b-6bgqpvhkd3
+                                        >Xuất viện</a
+                                    >
+                                </li>
+                                <li b-6bgqpvhkd3>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../benh-nhan-can-biet/quy-dinh-tham-benh.html"
+                                        b-6bgqpvhkd3
+                                        >Quy định thăm bệnh</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" b-6bgqpvhkd3>
+            <div class="container d-md-flex py-2" b-6bgqpvhkd3>
+                <div class="w-100 text-center" b-6bgqpvhkd3>
+                    <div class="copyright" b-6bgqpvhkd3>
+                        &copy; Copyright
+                        <strong b-6bgqpvhkd3
+                            ><span b-6bgqpvhkd3
+                                >Benh Vien Le Van Viet</span
+                            ></strong
+                        >. All Rights Reserved. Designed by
+                        <a
+                            href="https://benhvienlevanviet.vn/"
+                            target="_blank"
+                            b-6bgqpvhkd3
+                            >Benh Vien Le Van Viet</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-        <nav id="navbar" class="navbar order-last order-lg-0" b-6bgqpvhkd3><ul b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="nav-link scrollto trang-chu" id="trang-chu" href="../index.html" b-6bgqpvhkd3>Trang chủ</a></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle gioi-thieu " href="../index.html#" id="gioi-thieu" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>Gi&#x1EDB;i thi&#x1EC7;u</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/tong-quan-benh-vien.html" b-6bgqpvhkd3>T&#x1ED4;NG QUAN B&#x1EC6;NH VI&#x1EC6;N</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/ban-lanh-dao.html" b-6bgqpvhkd3>BAN L&#xC3;NH &#x110;&#x1EA0;O</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/so-do-to-chuc.html" b-6bgqpvhkd3>S&#x1A0; &#x110;&#x1ED2; T&#x1ED4; CH&#x1EE8;C</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/cac-phong-ban.html" b-6bgqpvhkd3>C&#xC1;C PH&#xD2;NG BAN</a></li></ul></li><li b-6bgqpvhkd3><a class="nav-link scrollto chuyen-khoa" id="chuyen-khoa" href="../chuyen-khoa.html" b-6bgqpvhkd3>Chuy&#xEA;n khoa</a></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle dich-vu " href="../index.html#" id="dich-vu" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>D&#x1ECB;ch v&#x1EE5;</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vien-phi.html" b-6bgqpvhkd3>B&#x1EA2;NG GI&#xC1; VI&#x1EC6;N PH&#xCD;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-thuoc.html" b-6bgqpvhkd3>B&#x1EA2;NG GI&#xC1; THU&#x1ED0;C</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vat-tu.html" b-6bgqpvhkd3>B&#x1EA2;NG GI&#xC1; V&#x1EAC;T T&#x1AF;</a></li></ul></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle benh-nhan-can-biet " href="../index.html#" id="benh-nhan-can-biet" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>B&#x1EC7;nh nh&#xE2;n c&#x1EA7;n bi&#x1EBF;t</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/lich-truc-bac-si.html" b-6bgqpvhkd3>L&#x1ECA;CH TR&#x1EF0;C B&#xC1;C S&#x128;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/bao-hiem-y-te.html" b-6bgqpvhkd3>B&#x1EA2;O HI&#x1EC2;M Y T&#x1EBE;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/dieu-tri-ngoai-tru.html" b-6bgqpvhkd3>&#x110;I&#x1EC0;U TR&#x1ECA; NGO&#x1EA0;I TR&#xDA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/dieu-tri-noi-tru.html" b-6bgqpvhkd3>&#x110;I&#x1EC0;U TR&#x1ECA; N&#x1ED8;I TR&#xDA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/nhap-vien-dieu-tri.html" b-6bgqpvhkd3>NH&#x1EAC;P VI&#x1EC6;N &#x110;I&#x1EC0;U TR&#x1ECA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/xuat-vien.html" b-6bgqpvhkd3>XU&#x1EA4;T VI&#x1EC6;N</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/quy-dinh-tham-benh.html" b-6bgqpvhkd3>QUY &#x110;&#x1ECA;NH TH&#x102;M B&#x1EC6;NH</a></li></ul></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle tin-tuc " href="../index.html#" id="tin-tuc" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>Tin t&#x1EE9;c</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="quan-ly-chat-luong.html" b-6bgqpvhkd3>QU&#x1EA2;N L&#xDD; CH&#x1EA4;T L&#x1AF;&#x1EE2;NG</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="cau-lac-bo-nguoi-benh.html" b-6bgqpvhkd3>C&#xC2;U L&#x1EA0;C B&#x1ED8; NG&#x1AF;&#x1EDC;I B&#x1EC6;NH</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="thong-tin-so-y-te.html" b-6bgqpvhkd3>TH&#xD4;NG TIN S&#x1EDE; Y T&#x1EBE;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="giao-duc-suc-khoe.html" b-6bgqpvhkd3>GI&#xC1;O D&#x1EE4;C S&#x1EE8;C KH&#x1ECE;E</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="hoat-dong-benh-vien.html" b-6bgqpvhkd3>HO&#x1EA0;T &#x110;&#x1ED8;NG B&#x1EC6;NH VI&#x1EC6;N</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="tuyen-dung.html" b-6bgqpvhkd3>TUY&#x1EC2;N D&#x1EE4;NG</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="dau-thau.html" b-6bgqpvhkd3>&#x110;&#x1EA4;U TH&#x1EA6;U</a></li></ul></li><li class="nav-item dropdown" b-6bgqpvhkd3><a class="nav-link dropdown-toggle hoat-dong-khoa-hoc " href="../index.html#" id="hoat-dong-khoa-hoc" role="button" data-bs-toggle="dropdown" aria-expanded="false" b-6bgqpvhkd3>Ho&#x1EA1;t &#x111;&#x1ED9;ng khoa h&#x1ECD;c</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/sinh-hoat-khoa-hoc-ky-thuat.html" b-6bgqpvhkd3>SINH HO&#x1EA0;T KHOA H&#x1ECC;C K&#x1EF8; THU&#x1EAC;T</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/nghien-cuu-khoa-hoc-ky-thuat.html" b-6bgqpvhkd3>NGHI&#xCA;N C&#x1EE8;U KHOA H&#x1ECC;C K&#x1EF8; THU&#x1EAC;T</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/dao-tao.html" b-6bgqpvhkd3>&#x110;&#xC0;O T&#x1EA0;O</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/phac-do-dieu-tri.html" b-6bgqpvhkd3>PH&#xC1;C &#x110;&#x1ED2; &#x110;I&#x1EC0;U TR&#x1ECA;</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/quy-trinh-ky-thuat.html" b-6bgqpvhkd3>QUY TR&#xCC;NH K&#x1EF8; THU&#x1EAC;T</a></li><li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/danh-muc-ky-thuat.html" b-6bgqpvhkd3>DANH M&#x1EE4;C K&#x1EF8; THU&#x1EAC;T</a></li></ul></li><li b-6bgqpvhkd3><a class="nav-link scrollto lien-he" id="lien-he" href="../lien-he.html" b-6bgqpvhkd3>Li&#xEA;n h&#x1EC7;</a></li></ul>
-            <i class="bi bi-list mobile-nav-toggle" onclick="navbarClick(this)" b-6bgqpvhkd3></i></nav></div></header>
+        <div class="chat_icon_bottom" b-6bgqpvhkd3>
+            <div
+                class=""
+                id="ant-blazor-f1c1918b-425c-4767-b324-a027877e4fbc"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="addressbox" b-6bgqpvhkd3>
+                    <a
+                        href="https://www.google.com/maps/place/387 L&#xEA; V&#x103;n Vi&#x1EC7;t, T&#x103;ng Nh&#x1A1;n Ph&#xFA; A, Th&#xE0;nh Ph&#x1ED1; Th&#x1EE7; &#x110;&#x1EE9;c, Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh"
+                        target="_blank"
+                        b-6bgqpvhkd3
+                        ><img
+                            src="../images/address-icon.png"
+                            alt
+                            class="zalome"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
 
+            <div
+                class=""
+                id="ant-blazor-a2634c0c-a140-432f-ac0b-866e4fbc3d72"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="facebookbox" b-6bgqpvhkd3>
+                    <a href="tel:0966691010" b-6bgqpvhkd3
+                        ><img
+                            src="../images/icon_phone.png"
+                            alt
+                            class="faceme"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
 
+            <div
+                class=""
+                id="ant-blazor-a6f64941-1a48-40eb-9613-1fad2d3c2dd1"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="facebookbox" b-6bgqpvhkd3>
+                    <a
+                        href="https://www.facebook.com/p/B%E1%BB%86NH-VI%E1%BB%86N-QU%E1%BA%ACN-9-100057544624527"
+                        target="_blank"
+                        b-6bgqpvhkd3
+                        ><img
+                            src="../images/icon_facebook.svg"
+                            alt
+                            class="faceme"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
 
+            <div
+                class=""
+                id="ant-blazor-e1a9aba0-2f9b-45d3-801a-f07a5c06ed40"
+                style="display: inline-block"
+                __internal_preventDefault_oncontextmenu
+                tabindex="0"
+            >
+                <div class="zalobox" b-6bgqpvhkd3>
+                    <a
+                        href="https://zalo.me/0966691010"
+                        target="_blank"
+                        b-6bgqpvhkd3
+                        ><img
+                            src="../images/zalo-icon.png"
+                            alt
+                            class="zalome"
+                            b-6bgqpvhkd3
+                    /></a>
+                </div>
+            </div>
+        </div>
 
-<main id="main" class="main-content" b-50gdjnxpjp><section class="main-section " b-50gdjnxpjp><div class="section-title" b-50gdjnxpjp><h2 b-50gdjnxpjp>GI&#xC1;O D&#x1EE4;C S&#x1EE8;C KH&#x1ECE;E</h2></div>
-        <div class="section-content news" b-50gdjnxpjp><div class="container" b-50gdjnxpjp><div class="row" b-50gdjnxpjp><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67e2bacbb61fd19e145c24c3/benh-vien-le-van-viet-cap-cuu-lay-khoi-thai-tron-ven,-giu-duoc-buong-trung-cho-benh-nhan-thai-ngoai-tu-cung-o-buong-trung.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-0f4cfbff-48c8-411b-a80c-11c234eeb7af.jpeg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67e2bacbb61fd19e145c24c3/benh-vien-le-van-viet-cap-cuu-lay-khoi-thai-tron-ven,-giu-duoc-buong-trung-cho-benh-nhan-thai-ngoai-tu-cung-o-buong-trung.html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t c&#x1EA5;p c&#x1EE9;u l&#x1EA5;y kh&#x1ED1;i thai tr&#x1ECD;n v&#x1EB9;n, gi&#x1EEF; &#x111;&#x1B0;&#x1EE3;c bu&#x1ED3;ng tr&#x1EE9;ng cho b&#x1EC7;nh nh&#xE2;n thai ngo&#xE0;i t&#x1EED; cung &#x1EDF; bu&#x1ED3;ng tr&#x1EE9;ng
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 24/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67e2bce9a148a85979873dee/nguoi-phu-nu-nhap-vien-cap-cuu-do-bang-huyet-uong-thuoc-pha-thai-gia-re-mua-tren-mang.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media01/1227423520368099328/1230041768871854080/25-03-2025-8d34b78a-1a6b-4fa0-a6b3-c8849800272c.jpeg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67e2bce9a148a85979873dee/nguoi-phu-nu-nhap-vien-cap-cuu-do-bang-huyet-uong-thuoc-pha-thai-gia-re-mua-tren-mang.html" b-50gdjnxpjp>Ng&#x1B0;&#x1EDD;i ph&#x1EE5; n&#x1EEF; nh&#x1EAD;p vi&#x1EC7;n c&#x1EA5;p c&#x1EE9;u do b&#x103;ng huy&#x1EBF;t u&#x1ED1;ng thu&#x1ED1;c ph&#xE1; thai gi&#xE1; r&#x1EBB; mua tr&#xEA;n m&#x1EA1;ng
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 22/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67d92af4a80e0f0e9cc25229/dau-hieu-canh-bao-nuoc-tieu-duc-la-benh-tuyen-tien-liet.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-f36fbf2e-3f18-4db9-9c3a-8d2badbbf775.webp" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67d92af4a80e0f0e9cc25229/dau-hieu-canh-bao-nuoc-tieu-duc-la-benh-tuyen-tien-liet.html" b-50gdjnxpjp>D&#x1EA5;u hi&#x1EC7;u c&#x1EA3;nh b&#xE1;o n&#x1B0;&#x1EDB;c ti&#x1EC3;u &#x111;&#x1EE5;c l&#xE0; b&#x1EC7;nh tuy&#x1EBF;n ti&#x1EC1;n li&#x1EC7;t
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 17/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67d92beb196740ebce84f152/vi-sao-de-xuat-tang-thoi-gian-nghi-khi-sinh-con-thu-hai-7-thang%3F.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-1225e854-b525-4fa1-a543-5e879acb22cc.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67d92beb196740ebce84f152/vi-sao-de-xuat-tang-thoi-gian-nghi-khi-sinh-con-thu-hai-7-thang%3F.html" b-50gdjnxpjp>V&#xEC; sao &#x111;&#x1EC1; xu&#x1EA5;t t&#x103;ng th&#x1EDD;i gian ngh&#x1EC9; khi sinh con th&#x1EE9; hai 7 th&#xE1;ng?
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 12/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67d92b39a80e0f0e9cc2522a/tac-hai-khong-ngo-cua-nam-ngay-sau-khi-an.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-7397b949-fbcb-405f-af97-1afda5235ea5.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67d92b39a80e0f0e9cc2522a/tac-hai-khong-ngo-cua-nam-ngay-sau-khi-an.html" b-50gdjnxpjp>T&#xE1;c h&#x1EA1;i kh&#xF4;ng ng&#x1EDD; c&#x1EE7;a n&#x1EB1;m ngay sau khi &#x103;n
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 11/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67d9888bf63f482d8e7d3cb8/benh-vien-le-van-viet-phau-thuat-ket-hop-xuong-thanh-cong-cho-benh-nhan-gay-lun-3-mat-ca-co-chan-khi-nhay-day.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/18-03-2025-e9ff77f9-5ad7-47c4-83dd-23058108cdb7.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67d9888bf63f482d8e7d3cb8/benh-vien-le-van-viet-phau-thuat-ket-hop-xuong-thanh-cong-cho-benh-nhan-gay-lun-3-mat-ca-co-chan-khi-nhay-day.html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t ph&#x1EAB;u thu&#x1EAD;t k&#x1EBF;t h&#x1EE3;p x&#x1B0;&#x1A1;ng th&#xE0;nh c&#xF4;ng cho b&#x1EC7;nh nh&#xE2;n g&#xE3;y l&#xFA;n 3 m&#x1EAF;t c&#xE1; c&#x1ED5; ch&#xE2;n khi nh&#x1EA3;y d&#xE2;y
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 07/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67e2bd8da148a85979873def/benh-vien-le-van-viet-cap-cuu-san-phu-thai-chuyen-da-som-de-roi-tai-nha.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-353ce938-6df7-419c-811e-584bb09c16b2.jpeg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67e2bd8da148a85979873def/benh-vien-le-van-viet-cap-cuu-san-phu-thai-chuyen-da-som-de-roi-tai-nha.html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t c&#x1EA5;p c&#x1EE9;u s&#x1EA3;n ph&#x1EE5; thai chuy&#x1EC3;n d&#x1EA1; s&#x1EDB;m &#x111;&#x1EBB; r&#x1A1;i t&#x1EA1;i nh&#xE0;
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 04/03/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67ef83afdd0f5130a481b4ed/noi-soi-tan-soi-nieu-quan-hai-ben-bang-laser-ket-hop-dat-ong-sonde-jj-nieu-quan-cho-benh-nhan-28-tuoi.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media01/1227423520368099328/1230041768871854080/04-04-2025-6a80ffab-e37f-4104-b029-70c969273849.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67ef83afdd0f5130a481b4ed/noi-soi-tan-soi-nieu-quan-hai-ben-bang-laser-ket-hop-dat-ong-sonde-jj-nieu-quan-cho-benh-nhan-28-tuoi.html" b-50gdjnxpjp>N&#x1ED9;i soi t&#xE1;n s&#x1ECF;i ni&#x1EC7;u qu&#x1EA3;n hai b&#xEA;n b&#x1EB1;ng laser k&#x1EBF;t h&#x1EE3;p &#x111;&#x1EB7;t &#x1ED1;ng Sonde JJ ni&#x1EC7;u qu&#x1EA3;n cho b&#x1EC7;nh nh&#xE2;n 28 tu&#x1ED5;i
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 25/02/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67ef5db0a22acd5afeacf54a/benh-vien-le-van-viet-noi-soi-gap-vien-thuoc-con-nguyen-vo-mac-ket-trong-thuc-quan-benh-nhan.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media01/1227423520368099328/1230041768871854080/04-04-2025-1932f49b-8d17-4266-baa8-71a3f0fba9e6.webp" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67ef5db0a22acd5afeacf54a/benh-vien-le-van-viet-noi-soi-gap-vien-thuoc-con-nguyen-vo-mac-ket-trong-thuc-quan-benh-nhan.html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t n&#x1ED9;i soi g&#x1EAF;p vi&#xEA;n thu&#x1ED1;c c&#xF2;n nguy&#xEA;n v&#x1ECF; m&#x1EAF;c k&#x1EB9;t trong th&#x1EF1;c qu&#x1EA3;n b&#x1EC7;nh nh&#xE2;n
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 20/01/2025</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67ef8a309b43b2030dea046c/benh-vien-le-van-viet-huong-ung-ngay-quoc-te-phong-chong-dich-benh-(27/12/2024)%250A.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/04-04-2025-2a014877-26ab-4964-a485-baff828c982d.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67ef8a309b43b2030dea046c/benh-vien-le-van-viet-huong-ung-ngay-quoc-te-phong-chong-dich-benh-(27/12/2024)%250A.html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t h&#x1B0;&#x1EDF;ng &#x1EE9;ng Ng&#xE0;y Qu&#x1ED1;c t&#x1EBF; ph&#xF2;ng ch&#x1ED1;ng d&#x1ECB;ch b&#x1EC7;nh (27/12/2024)&#xA;
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 25/12/2024</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67ef5564fd02426576b051cd/benh-vien-le-van-viet-phau-thuat-thanh-cong-dong-dinh-noi-tuy-benh-nhan-gay-2-xuong-cang-chan-phuc-tap.html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/04-04-2025-d39919b5-00d9-43c8-991d-8e3c0f53196d.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67ef5564fd02426576b051cd/benh-vien-le-van-viet-phau-thuat-thanh-cong-dong-dinh-noi-tuy-benh-nhan-gay-2-xuong-cang-chan-phuc-tap.html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t ph&#x1EAB;u thu&#x1EAD;t th&#xE0;nh c&#xF4;ng &#x111;&#xF3;ng &#x111;inh n&#x1ED9;i t&#x1EE7;y b&#x1EC7;nh nh&#xE2;n g&#xE3;y 2 x&#x1B0;&#x1A1;ng c&#x1EB3;ng ch&#xE2;n ph&#x1EE9;c t&#x1EA1;p
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 08/12/2024</span></a></h4></div></div><div class="col-md-4 d-flex align-items-stretch mb-2" b-50gdjnxpjp><div class="icon-box" b-50gdjnxpjp><div class="iconImg" b-50gdjnxpjp><a href="67ef592fa22acd5afeacf549/benh-vien-le-van-viet-noi-soi-gap-xuong-ga-mac-sau-trong-thuc-quan..html" b-50gdjnxpjp><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/04-04-2025-3c9c6ff5-ab90-4275-ad30-4997447cc24c.jpg" b-50gdjnxpjp /></a></div>
-                                        <h4 b-50gdjnxpjp><a href="67ef592fa22acd5afeacf549/benh-vien-le-van-viet-noi-soi-gap-xuong-ga-mac-sau-trong-thuc-quan..html" b-50gdjnxpjp>B&#x1EC7;nh vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t n&#x1ED9;i soi g&#x1EAF;p x&#x1B0;&#x1A1;ng g&#xE0; m&#x1EAF;c s&#xE2;u trong th&#x1EF1;c qu&#x1EA3;n.
-                                                <span class="time" b-50gdjnxpjp><i class="fa-solid fa-clock" b-50gdjnxpjp></i> 28/11/2024</span></a></h4></div></div><div class="div_paging" b-50gdjnxpjp>        <ul class=" ant-pagination" unselectable="unselectable">
-            
-            <li title="Previous Page" class="ant-pagination-prev ant-pagination-disabled" aria-disabled="prevDisabled">
-                <button class="ant-pagination-item-link" type="button" tabIndex="-1" disabled>
-                <span role="img" class=" anticon anticon-left" id="ant-blazor-2ed57d7d-3e4d-4404-a4b7-4acbca6c917c">
-<svg focusable="false" width="1em" height="1em" fill="currentColor" style="pointer-events: none;"  xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024"><path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"/></svg></span>
-            </button>
-            </li>
-<li title="1" class=" ant-pagination-item ant-pagination-item-1 ant-pagination-item-active" tabIndex="0">
-    <a rel="nofollow">1</a>
-</li>
-<li title="2" class=" ant-pagination-item ant-pagination-item-2" tabIndex="0">
-    <a rel="nofollow">2</a>
-</li>
-            <li title="Next Page" class="ant-pagination-next" aria-disabled="nextDisabled">
-                <button class="ant-pagination-item-link" type="button" tabIndex="-1">
-                <span role="img" class=" anticon anticon-right" id="ant-blazor-63e16dae-b10f-4325-80a7-b0a8be52961a">
-<svg focusable="false" width="1em" height="1em" fill="currentColor" style="pointer-events: none;"  xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"/></svg></span>
-            </button>
-            </li>
+        <a
+            href="../index.html#"
+            class="back-to-top d-flex align-items-center justify-content-center"
+            b-6bgqpvhkd3
+            ><i class="bi bi-arrow-up-short" b-6bgqpvhkd3></i
+        ></a>
 
-            
-        </ul>
-</div></div></div></div></section></main>
+        <!--Blazor:{"prerenderId":"0b41bc3fb1b14c1c9d2d988334f008a0"}-->
 
+        <link
+            href="../_content/AntDesign/css/ant-design-blazor.css"
+            rel="stylesheet"
+        />
+        <script src="../_content/AntDesign/js/ant-design-blazor.js"></script>
 
-<section id="footerWrap" class="footerWrap" b-6bgqpvhkd3><div class="container" b-6bgqpvhkd3><div class="row" b-6bgqpvhkd3><div class="btBox widget_bt_text_image rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><div class="btImage" b-6bgqpvhkd3><img src="https://media.medicnet.vn/media02/1227423520368099328/1230041768871854080/25-03-2025-9163b1d7-04fc-44cf-b0d7-317117f2f8e3.png" alt="lvt-logo-white" b-6bgqpvhkd3 /></div><div class="widget_sp_image-description" b-6bgqpvhkd3><p b-6bgqpvhkd3></p></div></div><div class="btBox widget_nav_menu rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><h4 b-6bgqpvhkd3><span b-6bgqpvhkd3>B&#x1EC7;nh Vi&#x1EC7;n L&#xEA; V&#x103;n Vi&#x1EC7;t</span></h4><div class="menu-benh-vien-container" b-6bgqpvhkd3><ul id="menu-benh-vien" class="menu" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../index.html" b-6bgqpvhkd3>Trang chủ</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/tong-quan-benh-vien.html" b-6bgqpvhkd3>Tổng quan bệnh viện</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/ban-lanh-dao.html" b-6bgqpvhkd3>Ban lãnh đạo</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../gioi-thieu/so-do-to-chuc.html" b-6bgqpvhkd3>Sơ Đồ Tổ Chức</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="tuyen-dung.html" b-6bgqpvhkd3>Tuyển dụng</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="dau-thau.html" b-6bgqpvhkd3>Đấu thầu</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../hoat-dong-khoa-hoc/dao-tao.html" b-6bgqpvhkd3>Đào tạo</a></li></ul></div></div><div class="btBox widget_nav_menu rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><h4 b-6bgqpvhkd3><span b-6bgqpvhkd3>Liên Kết Hữu Ích</span></h4><div class="menu-lien-ket-huu-ich-container" b-6bgqpvhkd3><ul id="menu-lien-ket-huu-ich" class="menu" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../booking.html" b-6bgqpvhkd3>Đặt khám</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../chuyen-khoa.html" b-6bgqpvhkd3>Chuyên khoa</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vien-phi.html" b-6bgqpvhkd3>Bảng Giá Viện Phí</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-thuoc.html" b-6bgqpvhkd3>Bảng Giá Thuốc</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../dich-vu/bang-gia-vat-tu.html" b-6bgqpvhkd3>Bảng Giá Vật Tư</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../lien-he.html" b-6bgqpvhkd3>Liên hệ</a></li></ul></div></div><div class="btBox widget_nav_menu rowItem col-md-3 col-sm-12" b-6bgqpvhkd3><h4 b-6bgqpvhkd3><span b-6bgqpvhkd3>Dành Cho Người bệnh</span></h4><div class="menu-benh-nhan-container" b-6bgqpvhkd3><ul id="menu-benh-nhan" class="menu" b-6bgqpvhkd3><li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan/lich-truc-bac-si.html" b-6bgqpvhkd3>Lịch trực Bác sĩ</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/bao-hiem-y-te.html" b-6bgqpvhkd3>Bảo hiểm Y tế</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/dieu-tri-ngoai-tru.html" b-6bgqpvhkd3>Điều trị ngoại trú</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/dieu-tri-noi-tru.html" b-6bgqpvhkd3>Điều trị nội trú</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/nhap-vien-dieu-tri.html" b-6bgqpvhkd3>Nhập viện điều trị</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/xuat-vien.html" b-6bgqpvhkd3>Xuất viện</a></li>
-                        <li b-6bgqpvhkd3><a class="dropdown-item" href="../benh-nhan-can-biet/quy-dinh-tham-benh.html" b-6bgqpvhkd3>Quy định thăm bệnh</a></li></ul></div></div></div></div></section>
-<footer id="footer" b-6bgqpvhkd3><div class="container d-md-flex py-2" b-6bgqpvhkd3><div class="w-100 text-center" b-6bgqpvhkd3><div class="copyright" b-6bgqpvhkd3>
-                &copy; Copyright <strong b-6bgqpvhkd3><span b-6bgqpvhkd3>Medicnet</span></strong>. All Rights Reserved. Designed by <a href="http://medicnet.vn/" target="_blank" b-6bgqpvhkd3>Medicnet</a></div></div></div></footer>
+        <div id="blazor-error-ui">
+            <a href="../index.html" class="reload">Reload</a>
+            <a class="dismiss">🗙</a>
+        </div>
+        <!-- Vendor JS Files -->
+        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-<div class="chat_icon_bottom" b-6bgqpvhkd3><div class="" Id="ant-blazor-f1c1918b-425c-4767-b324-a027877e4fbc" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="addressbox" b-6bgqpvhkd3><a href="https://www.google.com/maps/place/387 L&#xEA; V&#x103;n Vi&#x1EC7;t, T&#x103;ng Nh&#x1A1;n Ph&#xFA; A, Th&#xE0;nh Ph&#x1ED1; Th&#x1EE7; &#x110;&#x1EE9;c, Th&#xE0;nh ph&#x1ED1; H&#x1ED3; Ch&#xED; Minh" target="_blank" b-6bgqpvhkd3><img src="../images/address-icon.png" alt class="zalome" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-<div class="" Id="ant-blazor-a2634c0c-a140-432f-ac0b-866e4fbc3d72" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="facebookbox" b-6bgqpvhkd3><a href="tel:0966691010" b-6bgqpvhkd3><img src="../images/icon_phone.png" alt class="faceme" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-<div class="" Id="ant-blazor-a6f64941-1a48-40eb-9613-1fad2d3c2dd1" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="facebookbox" b-6bgqpvhkd3><a href="https://www.facebook.com/p/B%E1%BB%86NH-VI%E1%BB%86N-QU%E1%BA%ACN-9-100057544624527" target="_blank" b-6bgqpvhkd3><img src="../images/icon_facebook.svg" alt class="faceme" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-<div class="" Id="ant-blazor-e1a9aba0-2f9b-45d3-801a-f07a5c06ed40" style="display: inline-block; " __internal_preventDefault_oncontextmenu tabindex="0">
-    <div class="zalobox" b-6bgqpvhkd3><a href="https://zalo.me/0966691010" target="_blank" b-6bgqpvhkd3><img src="../images/zalo-icon.png" alt class="zalome" b-6bgqpvhkd3></a></div>
-</div>
-
-
-    
-        
-    
-</div>
-
-<a href="../index.html#" class="back-to-top d-flex align-items-center justify-content-center" b-6bgqpvhkd3><i class="bi bi-arrow-up-short" b-6bgqpvhkd3></i></a>
-        
-
-
-
-
-
-
-<!--Blazor:{"prerenderId":"0b41bc3fb1b14c1c9d2d988334f008a0"}-->
-
-<link href="../_content/AntDesign/css/ant-design-blazor.css" rel="stylesheet" />
-<script src="../_content/AntDesign/js/ant-design-blazor.js"></script>
-
-    <div id="blazor-error-ui">
-        
-        
-        <a href="../index.html" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="https://www.google.com/recaptcha/api.js?hl=vi" async defer></script>
-    <script src="../assets/js/gmsMain.js"></script>
-    <script src="../_framework/blazor.server.js"></script>
-</body>
+        <!-- Template Main JS File -->
+        <script
+            src="https://www.google.com/recaptcha/api.js?hl=vi"
+            async
+            defer
+        ></script>
+        <script src="../assets/js/gmsMain.js"></script>
+        <script src="../_framework/blazor.server.js"></script>
+    </body>
 </html>
