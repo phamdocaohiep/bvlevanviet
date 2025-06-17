@@ -1,4 +1,3 @@
-s
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,17 +14,17 @@ s
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="./assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link href="/_content/AntDesign/css/ant-design-blazor.css" rel="stylesheet" />
-<script src="/_content/AntDesign/js/ant-design-blazor.js"></script>
+    <link href="./_content/AntDesign/css/ant-design-blazor.css" rel="stylesheet" />
+<script src="./_content/AntDesign/js/ant-design-blazor.js"></script>
 
     <div id="blazor-error-ui">
         
@@ -88,26 +87,28 @@ s
             <i class="bi bi-list mobile-nav-toggle" onclick="navbarClick(this)" b-6bgqpvhkd3></i></nav></div></header>
 
 <div id="home" style="height: 1px; width: 100%" b-kf1h7uruxe></div>
-<section id="hero" class="d-flex align-items-center" b-kf1h7uruxe>
-    <div class="swiper slider-swiper" b-kf1h7uruxe>
-        <div class="swiper-wrapper" b-kf1h7uruxe>
-    <div class="swiper-slide" b-kf1h7uruxe>
-        <img src="uploads/939027508395769856/images/banner-dai-hoi-chi-bo.png" b-kf1h7uruxe />
-    </div>
-    <div class="swiper-slide" b-kf1h7uruxe>
-        <img src="uploads/939027508395769856/images/cover-hoi-nghi-KHKT-web.png" b-kf1h7uruxe />
-    </div>
-    <div class="swiper-slide" b-kf1h7uruxe>
-        <img src="./uploads/939027508395769856/images/banner-bao-hiem.png" b-kf1h7uruxe />
-    </div>
-        <div class="swiper-slide" b-kf1h7uruxe>
-            <img src="./uploads/939027508395769856/images/banner-4-benvienlevanviet.png" b-kf1h7uruxe />
+<!-- Hero Slider Section -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="swiper slider-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="uploads/939027508395769856/images/banner-dai-hoi-chi-bo.png" alt="Banner Đại hội Chi bộ" class="img-fluid" />
         </div>
+        <div class="swiper-slide">
+          <img src="uploads/939027508395769856/images/cover-hoi-nghi-KHKT-web.png" alt="Hội nghị KHKT" class="img-fluid" />
+        </div>
+        <div class="swiper-slide">
+          <img src="uploads/939027508395769856/images/banner-bao-hiem.png" alt="Banner Bảo hiểm" class="img-fluid" />
+        </div>
+        <div class="swiper-slide">
+          <img src="uploads/939027508395769856/images/banner-4-benvienlevanviet.png" alt="Banner Bệnh viện Lê Văn Việt" class="img-fluid" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-        <div class="swiper-button-next" b-kf1h7uruxe></div>
-        <div class="swiper-button-prev" b-kf1h7uruxe></div>
-    </div>
-    </section>
+  </section>
 
 
 <main id="main" b-kf1h7uruxe><section id="why-us" class="why-us" b-kf1h7uruxe><div class="container" b-kf1h7uruxe><div class="row" b-kf1h7uruxe><div class="col-12 col-lg-4 d-flex align-items-stretch" b-kf1h7uruxe><div class="content" b-kf1h7uruxe><h3 b-kf1h7uruxe>&#x110;&#x1EB7;t h&#x1EB9;n tr&#x1EF1;c tuy&#x1EBF;n</h3>
@@ -280,34 +281,38 @@ s
 </div>
 
 <a href="index.html#" class="back-to-top d-flex align-items-center justify-content-center" b-6bgqpvhkd3><i class="bi bi-arrow-up-short" b-6bgqpvhkd3></i></a>
-        
+     
+<!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Main JS -->
+  <script src="assets/js/gmsMain.js"></script>
 
-
-
-
-
-
-<!--Blazor:{"prerenderId":"8bef4ba969d54b6e93067472f1386152"}-->
-
-<link href="_content/AntDesign/css/ant-design-blazor.css" rel="stylesheet" />
-<script src="_content/AntDesign/js/ant-design-blazor.js"></script>
-
-    <div id="blazor-error-ui">
-        
-        
-        <a href="index.html" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="https://www.google.com/recaptcha/api.js?hl=vi" async defer></script>
-    <script src="assets/js/gmsMain.js"></script>
-    <script src="_framework/blazor.server.js"></script>
+  <!-- Swiper Init (nếu cần test nhanh, có thể đặt ở đây) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var swiper = new Swiper('.slider-swiper', {
+        speed: 600,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false
+        },
+        slidesPerView: 1,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    });
+  </script>
 </body>
 </html>
